@@ -18,4 +18,9 @@ The app contains the following features:
 * The user is able to select which direction the conversion occurs.
 * To convert the value, there is a clickable button to carry out the conversion and display it to the user.
 
+## Kanban
+
+![image](https://github.com/user-attachments/assets/3068a8eb-6e74-42f3-9274-0c4d5a439765)
+
+
 
