@@ -1,20 +1,25 @@
-// CSS File for Styling
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 body {
     margin: 0;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     height: 100vh;
     font-family: 'Poppins', sans-serif;
-    background-color: #f4f4f4;
-    padding-top: 15vh;
+    background-color: #d9f3ff;
+}
+
+.container {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px 40px;
+    text-align: center;
 }
 
 .title {
-    text-align: center;
+    margin-bottom: 20px;
     font-size: 2.5rem;
     color: black;
 }
