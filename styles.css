@@ -7,15 +7,14 @@ body {
     align-items: center;
     height: 100vh;
     font-family: 'Poppins', sans-serif;
-    background-color: #f4f4f4;
-    padding-top: 15vh;
+    background-color: #d9f3ff;
 }
 
 .container {
     background-color: white;
-    border-radius: 15px; 
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
-    padding: 40px 40px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px 40px;
     text-align: center;
 }
 
