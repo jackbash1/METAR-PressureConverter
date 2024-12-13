@@ -5,7 +5,7 @@ Code &amp; Documentation for the Pressure Converter Application. Created by Jack
 
 ## Context
 
-![Design Prototype](https://github.com/user-attachments/assets/51112d4d-57fc-4259-bfa9-879fcd217b42)
+![image](https://github.com/user-attachments/assets/a5716e1f-6cb1-4000-a430-ff9ec8cfd6e5)
 
 
 This application allows users to input a numeric floating value, and find the conversion from Hectopascals (hPa) -> Inches of Mercury (inHg), or vice versa, inHg -> hPa. These metrics are Atmospheric Pressure units, with Hectopascals being the commonly used unit to measure it in the UK and Europe. Inches of Mercury are commonly used in the United States for the same purpose. Within Aviation, this is specifically important, as Pilots rely on knowing the different pressure values wherever they are flying, so their instruments read the correct height above sea level. Consistency across aircraft is vital for safety and collision avoidence.
