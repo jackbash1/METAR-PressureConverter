@@ -20,3 +20,5 @@ document.getElementById('convert-btn').addEventListener('click', function () {
         outputElement.value = "Please select a valid unit.";
     }
 });
+
+module.exports = { input, unitSelection, outputElement }
