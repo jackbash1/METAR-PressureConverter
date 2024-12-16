@@ -2,24 +2,92 @@
 
 body {
     margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #e6f7ff; /* Light blue background */
     font-family: 'Poppins', sans-serif;
-    background-color: #d9f3ff;
 }
 
 .container {
-    background-color: white;
+    background-color: #ffffff; /* White box */
+    padding: 30px;
     border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    padding: 40px 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+    width: 500px; /* Increased width for more content space */
+    height: 400px;
     text-align: center;
 }
 
 .title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #333333; /* Darker color for better readability */
     margin-bottom: 20px;
-    font-size: 2.5rem;
-    color: black;
+}
+
+.converter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Add spacing between form elements */
+}
+
+label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333333;
+    text-align: left;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    appearance: none; /* Remove default dropdown styling for consistency */
+    margin-bottom: 15px;
+}
+
+.convert-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: #ff4d4d; /* Blue button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 15px;
+}
+
+.convert-btn:hover {
+    background-color: #ff4d4d; /* Darker blue on hover */
+}
+
+output {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: #f9f9f9;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
