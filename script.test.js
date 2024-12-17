@@ -5,8 +5,8 @@ test ('that Jest is working', () => {
 
 const { convertToInHg, convertToHpa } = require('./script')
 
-test('that the user input is a number and advises when not', () => {
-    expect(typeof convertToInHg(1013)).toBe('number');
-    expect(typeof convertToInHg('one zero one three')).not.toBe('number');
-    expect(convertToInHg('abc')).toThrow("Input must be a number.");
+test('that the user input is not a string', () => {
+    expect(typeof convertToInHg(1013)).toBe('string');
+    expect(typeof convertToInHg('one zero one three')).not.toBe('string');
+    expect(() => convertToInHg('abc')).toThrow("Input must be a number.");
 });
