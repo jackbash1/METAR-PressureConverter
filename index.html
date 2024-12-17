@@ -25,5 +25,29 @@
         </form>
     </div>
     <script src="script.js"></script>
+    <script>
+        document.getElementById("convert-btn").addEventListener("click", function () {
+            const input = document.getElementById("pressure-input").value.trim();
+            const unitSelection = document.getElementById("unit-selection").value;
+            const outputElement = document.getElementById("conversion-output");
+
+            if (!input || isNaN(input)) {
+                outputElement.value = "Please enter a valid number.";
+                return;
+            }
+
+            const value = parseFloat(input);
+
+            if (unitSelection === "hpa") {
+                const result = convertToInHg(value); // Function from script.js
+                outputElement.value = `${value} hPa = ${result} inHg`;
+            } else if (unitSelection === "inhg") {
+                const result = convertToHpa(value); // Function from script.js
+                outputElement.value = `${value} inHg = ${result} hPa`;
+            } else {
+                outputElement.value = "Please select a valid unit.";
+            }
+        });
+    </script>
 </body>
 </html>
