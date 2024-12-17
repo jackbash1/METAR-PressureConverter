@@ -4,7 +4,7 @@
   "description": "Code &amp; Documentation for the Pressure Converter Application. Created by Jack Bashford. GitHub: @jackbash1",
   "main": "script.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "author": "",
   "license": "ISC",
