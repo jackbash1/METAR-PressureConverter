@@ -7,8 +7,10 @@ const { convertToInHg, convertToHpa } = require('./script')
 
 test('that the user input is not a string', () => {
     expect(typeof convertToInHg(1013)).toBe('string');
-    expect(typeof convertToInHg('one zero one three')).toBe('string');
+});
+
+test('throws error for non-numeric input', () => {
     expect(() => {
         convertToInHg('abc');
-    }).toThrowError("Input must be a number");
+    }).toThrow("Input must be a number");
 });
