@@ -39,10 +39,10 @@
             const value = parseFloat(input);
 
             if (unitSelection === "hpa") {
-                const result = convertToInHg(value); // Function from script.js
+                const result = convertToInHg(value); //function from script.js
                 outputElement.value = `${value} hPa = ${result} inHg`;
             } else if (unitSelection === "inhg") {
-                const result = convertToHpa(value); // Function from script.js
+                const result = convertToHpa(value); //function from script.js
                 outputElement.value = `${value} inHg = ${result} hPa`;
             } else {
                 outputElement.value = "Please select a valid unit.";
