@@ -1,7 +1,7 @@
 # Atmopsheric Pressure Converter
 Code &amp; Documentation for the Pressure Converter Application. Created by Jack Bashford. GitHub: @jackbash1
 
-[![codecov](https://codecov.io/gh/jackbash1/PressureConverter/graph/badge.svg?token=QPCR8QED5I)](https://codecov.io/gh/jackbash1/PressureConverter)
+[![codecov](https://codecov.io/gh/jackbash1/PressureConverter/branch/feature%2Funit-testing/graph/badge.svg?token=QPCR8QED5I)](https://codecov.io/gh/jackbash1/PressureConverter)
 
 ## Context
 
