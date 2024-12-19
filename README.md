@@ -18,9 +18,12 @@ The app contains the following features:
 * The user is able to select which direction the conversion occurs.
 * To convert the value, there is a clickable button to carry out the conversion and display it to the user.
 
-## Kanban
+## Project Management
 
-![image](https://github.com/user-attachments/assets/3068a8eb-6e74-42f3-9274-0c4d5a439765)
+![image](https://github.com/user-attachments/assets/52ad450f-d476-4d08-8c43-3b1c14aa8474)
+
+Through this project, I have utilised GitHub Projects as the tool to manage my workflow and ensure I can adopt an Agile Way of Working.
+
 
 
 
