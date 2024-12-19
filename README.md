@@ -18,6 +18,10 @@ The app contains the following features:
 * The user is able to select the units that the outputted value will be in.
 * To convert the value, there is a clickable button to carry out the conversion and display it back to the user underneath, alongside the original value.
 
+## How to use the App
+
+![Alt Text](https://github.com/user-attachments/assets/e245daff-2358-4c81-ba1b-f6b595b0090d)
+
 ## Project Management
 
 ![image](https://github.com/user-attachments/assets/52ad450f-d476-4d08-8c43-3b1c14aa8474)
