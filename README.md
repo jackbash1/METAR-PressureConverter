@@ -22,6 +22,10 @@ The app contains the following features:
 
 ![Alt Text](https://github.com/user-attachments/assets/e245daff-2358-4c81-ba1b-f6b595b0090d)
 
+## Figma Prototype
+
+https://www.figma.com/proto/SKUixSRww6lVhCeuEjPoJe/Design-Prototype?node-id=0-1&t=ew0hEgdHAv83Ehys-1
+
 ## Project Management
 
 ![image](https://github.com/user-attachments/assets/52ad450f-d476-4d08-8c43-3b1c14aa8474)
