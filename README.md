@@ -22,7 +22,7 @@ The app contains the following features:
 
 ![Alt Text](https://github.com/user-attachments/assets/e245daff-2358-4c81-ba1b-f6b595b0090d)
 
-## [Figma Prototype](https://www.figma.com/design/SKUixSRww6lVhCeuEjPoJe/Design-Prototype?node-id=0-1&t=ew0hEgdHAv83Ehys-1)
+## [Figma Prototype](https://www.figma.com/proto/SKUixSRww6lVhCeuEjPoJe/Design-Prototype?node-id=46-2&t=UTFqlbxfzRfOGJ9T-1)
 
 To design my application, I used Figma, which is an online tool that allows design and development of products, collaboratively across teams. In the case of this project, it allowed me to created a prototype design of the application, to scale with screen sizes. It offers users interactivity, which can help to detect issues with the design. I had 2 iterations of this design, taking onboard user feedback, recorded within a Google Form. This was as simple as showing the different designs, asking which was preferred, and ultimately any features that users would like to see. This allowed me to iteratively improve my designs, before concluding with this design. 
 
