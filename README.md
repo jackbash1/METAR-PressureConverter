@@ -22,11 +22,31 @@ The app contains the following features:
 
 ![Alt Text](https://github.com/user-attachments/assets/e245daff-2358-4c81-ba1b-f6b595b0090d)
 
-## [Figma Prototype](https://www.figma.com/proto/SKUixSRww6lVhCeuEjPoJe/Design-Prototype?node-id=46-2&t=UTFqlbxfzRfOGJ9T-1)
+## Design and [Figma Prototype](https://www.figma.com/proto/SKUixSRww6lVhCeuEjPoJe/Design-Prototype?node-id=46-2&t=UTFqlbxfzRfOGJ9T-1)
 
-To design my application, I used Figma, which is an online tool that allows design and development of products, collaboratively across teams. In the case of this project, it allowed me to created a prototype design of the application, to scale with screen sizes. It offers users interactivity, which can help to detect issues with the design. I had 2 iterations of this design, taking onboard user feedback, recorded within a Google Form. This was as simple as showing the different designs, asking which was preferred, and ultimately any features that users would like to see. This allowed me to iteratively improve my designs, before concluding with this design. 
+To design my application, I used Figma, which is an online tool that allows design and development of products, collaboratively across teams. In the case of this project, it allowed me to create prototype designs of the application, to scale with screen sizes. It offers users interactivity, which can help to detect issues with the design. 
 
-The design overall matches the tool created, with differing colours, decided during the development process. It offered an insight into how the tool should work, before it was coded.
+I had 2 iterations of the initial Version 1.0 wireframe design, taking onboard user feedback, recorded within a Google Form. This was as simple as showing the different designs, asking which was preferred, and ultimately any features that users would like to see. This allowed me to iteratively improve my designs, before concluding with this first design. I implemented Version 1.0 for the Pressure Converter shown below alongside the working prototype, which is attached as animated GIF for convenience. 
+
+![Version 1.0 Design](https://github.com/user-attachments/assets/e2b4bf7f-3f69-4fd8-be19-d9e30382e7d0)
+
+Upon commencing Version 2.0 of this App, developing it further into the METAR retriever and Pressure Converter, I returned to Figma to develop more wireframe designs, focussing on EDIPT (Empathize, Define, Ideate, Prototype and Test). This process of design thinking is especially important when making changes to an app that had positive feedback from users. I decided that due to this feedback, it was established that users like the current design, meaning that I did not want to alter the design where possible. From there, I could create a list of ideas that a user would benefit from:
+* An input box for Airport ICAO codes.
+* An option to output the METAR (Weather information) for that Airport.
+* Ability to copy the Pressure (QNH) across to the Pressure Converter.
+* A decoded version of the METAR information.
+
+What does the <i>intended</i> user want to see?
+The intended users are Pilots and Flight Ops Planning. These users have a working understanding of METAR and can decode them in their heads, they do not need the decoded version, and this will reduce the space used. However, they will want to retrieve the METAR for any airport, output the METAR onto the screen and then copy the QNH across to the converter to note down quickly. With this in mind, I built a prototype that included all of these features, aiming to keep the style of the app the same. 
+
+Version 2.0 extends the container horizontally, adding a section for the METAR retrieval, allowing the user to input an ICAO code, output the METAR, and copy the QNH directly into the Pressure Converter with the correct units selected. Similarly, the Prototype is attached below as a GIF for convenience.
+
+
+![Version 2.0 Design](https://github.com/user-attachments/assets/9afea59d-ab4d-4516-8896-7a2931e0255a)
+
+
+
+The design overall matches the tool created, with differing colours, decided during the development process. It offered an insight into how the tool should work, before it was coded in both instances. The prototypes allowed me to use Test Driven Development when coding the app and its tests.
 
 ## Project Management
 
