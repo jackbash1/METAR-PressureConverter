@@ -26,9 +26,14 @@ The app contains the following features:
 
 To design my application, I used Figma, which is an online tool that allows design and development of products, collaboratively across teams. In the case of this project, it allowed me to create prototype designs of the application, to scale with screen sizes. It offers users interactivity, which can help to detect issues with the design. 
 
-I had 2 iterations of the initial Version 1.0 wireframe design, taking onboard user feedback, recorded within a Google Form. This was as simple as showing the different designs, asking which was preferred, and ultimately any features that users would like to see. This allowed me to iteratively improve my designs, before concluding with this first design. I implemented Version 1.0 for the Pressure Converter shown below alongside the working prototype, which is attached as animated GIF for convenience. 
+I had 2 Wireframe designs for Version 1.0 of the app, shown below, they offer the same functions, in a different aesthetic manner. To decide on the best design, I took onboard user feedback, recorded within a Google Form from my colleagues. This was as simple as showing the different designs, asking which was preferred, and ultimately any features that users would like to see. This allowed me to iteratively improve my designs, before concluding with the final design. 
 
-![Version 1.0 Design](https://github.com/user-attachments/assets/e2b4bf7f-3f69-4fd8-be19-d9e30382e7d0)
+![Wireframe Designs V1.0](https://github.com/user-attachments/assets/b6f00e0e-3a71-44df-afdb-96db90d58623)
+
+I implemented Design One for Version 1.0 of the Pressure Converter as it users found the output clearer, with more of a modern feel. It also removes the confusion about being able to convert from inHg, which isn't clear in Design Two. The final prototype version is shown below attached as an animated GIF for convenience.
+
+*ANIMATED GIF OF V1.0 HERE*
+
 
 Upon commencing Version 2.0 of this App, developing it further into the METAR retriever and Pressure Converter, I returned to Figma to develop more wireframe designs, focussing on EDIPT (Empathize, Define, Ideate, Prototype and Test). This process of design thinking is especially important when making changes to an app that had positive feedback from users. I decided that due to this feedback, it was established that users like the current design, meaning that I did not want to alter the design where possible. From there, I could create a list of ideas that a user would benefit from:
 * An input box for Airport ICAO codes.
@@ -37,16 +42,15 @@ Upon commencing Version 2.0 of this App, developing it further into the METAR re
 * A decoded version of the METAR information.
 
 What does the <i>intended</i> user want to see?
-The intended users are Pilots and Flight Ops Planning. These users have a working understanding of METAR and can decode them in their heads, they do not need the decoded version, and this will reduce the space used. However, they will want to retrieve the METAR for any airport, output the METAR onto the screen and then copy the QNH across to the converter to note down quickly. With this in mind, I built a prototype that included all of these features, aiming to keep the style of the app the same. 
+The intended users are Pilots and Flight Ops Planning. These users have a working understanding of METAR and can decode them in their heads, they do not need the decoded version, and this will reduce the space used. However, they will want to retrieve the METAR for any airport, output the METAR onto the screen and then copy the QNH across to the converter to note down quickly. With this in mind, I designed a further two wireframe designs that included all of these features, aiming to keep the style of the app the same as the first version. The main difference between the designs is the "Copy QNH" button. Crucially, these designs are very similar, and the functionality remains the same, the second however, with less context to what the button carries out. 
 
-Version 2.0 extends the container horizontally, adding a section for the METAR retrieval, allowing the user to input an ICAO code, output the METAR, and copy the QNH directly into the Pressure Converter with the correct units selected. Similarly, the Prototype is attached below as a GIF for convenience.
+![Wireframe Designs V2.0](https://github.com/user-attachments/assets/6d711579-f50e-47f7-875b-96b43bd28f37)
 
+Ulitmately, Design One was chosen for the final design. The reason this design won was the ease of access for all users. The copy symbol is widely adopted in the Technology space, but for those unfamiliar, this button can be misleading. The simplicity of the text button is unmatched and therefore is a better design for the use case. Compared to Version 1.0, Version 2.0 extends the container horizontally, adding a section for the METAR retrieval, allowing the user to input an ICAO (Airport) code, output the METAR, and copy the QNH directly into the Pressure Converter with the correct units selected. As above, the Prototype is attached below as a GIF for convenience.
 
-![Version 2.0 Design](https://github.com/user-attachments/assets/9afea59d-ab4d-4516-8896-7a2931e0255a)
+**ANIMATED GIF OF V2.0 HERE**
 
-
-
-The design overall matches the tool created, with differing colours, decided during the development process. It offered an insight into how the tool should work, before it was coded in both instances. The prototypes allowed me to use Test Driven Development when coding the app and its tests.
+The designs overall match the tools created, with slightly differing colours, as decided during the development process. It offered an insight into how the tool should work, before it was coded in both instances. The prototypes allowed me to use Test Driven Development when coding the app and its tests.
 
 ## Project Management
 
