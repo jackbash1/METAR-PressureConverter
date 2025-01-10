@@ -7,16 +7,18 @@ Code &amp; Documentation for the METAR and Pressure Converter Application. Creat
 
 *PLACE SCREENSHOT OF FINAL APP HERE*
 
+Within an airline, there are lots of people that work with Atmospheric Pressure daily. Atmospheric Pressure is Air Pressure that is within the Earth's Atmosphere, and it affects the weather depending on high or low pressure. More importantly, Pressure directly impacts Aviation, and it can cause variations in lift, drag and thrust, alongside the instruments that measure altitude. It is crucial to understand the pressure along the route that is being flown, and due to differences across the world, the units are different. The main units are Hectopascals in the UK, and Inches of Mercury in the US, with the conversion being tricky to do mentally.
 
-This application allows users to input a numeric floating value, and find the conversion from Hectopascals (hPa) -> Inches of Mercury (inHg), or vice versa, inHg -> hPa. These metrics are Atmospheric Pressure units, with Hectopascals being the commonly used unit to measure it in the UK and Europe. Inches of Mercury are commonly used in the United States for the same purpose. Within Aviation, this is specifically important, as Pilots rely on knowing the different pressure values wherever they are flying, so their instruments read the correct height above sea level. Consistency across aircraft is vital for safety and collision avoidance.
+Therefore, this project aims to solve the issues that arise from this conversion that has to happen frequently. The main users that have to convert these numbers within the business are Pilots (the Pressure is referred to as the QNH), during their initial briefing phase, Flight Operations and Route Management. They require the ability to solely convert between Hectopascals (hPa) and Inches of Mercury (inHg), whilst also being able to retrieve the METAR for given airports based on the ICAO code. An ICAO code is an identifier for an Airport. For convenience, there needs to be an ability to automate moving the QNH (Pressure Value) from the METAR directly to the Converter, so there is a button to extract this.
 
-In an airline setting, this app provides consistent and up to date conversions between hPa and inHg. Different airlines often use different pressure metrics, which is why knowing the equivalent value is key. Pilots may use this when preparing for their flights, or Flight Planning may use it to understand the differences aceoss charts. Whilst this can be worked manually, it will not provide the level of accuracy that this app provides. 
 
 ## Features
 The app contains the following features:
-* The user is able to input the value they want to convert.
-* The user is able to select the units that the outputted value will be in.
+* The user is able to input a value they want to convert manually.
+* The user is able to select the units they want to convert to.
 * To convert the value, there is a clickable button to carry out the conversion and display it back to the user underneath, alongside the original value.
+* An input field for ICAO codes which will output the recent METAR for that Airport.
+* A copy button that extracts the Pressure from the METAR, and places it into the Converter, with the correct units selected in the dropdown.
 
 ## How to use the App
 
