@@ -1,22 +1,24 @@
-# Atmopsheric Pressure Converter
-Code &amp; Documentation for the Pressure Converter Application. Created by Jack Bashford. GitHub: @jackbash1
+# METAR and Pressure Converter
+Code &amp; Documentation for the METAR and Pressure Converter Application. Created by Jack Bashford. GitHub: @jackbash1
 
 [![codecov](https://codecov.io/gh/jackbash1/PressureConverter/branch/feature%2Funit-testing/graph/badge.svg?token=QPCR8QED5I)](https://codecov.io/gh/jackbash1/PressureConverter)
 
 ## Context
 
-![image](https://github.com/user-attachments/assets/a5716e1f-6cb1-4000-a430-ff9ec8cfd6e5)
+*PLACE SCREENSHOT OF FINAL APP HERE*
 
+Within an airline, there are lots of people that work with Atmospheric Pressure daily. Atmospheric Pressure is Air Pressure that is within the Earth's Atmosphere, and it affects the weather depending on high or low pressure. More importantly, Pressure directly impacts Aviation, and it can cause variations in lift, drag and thrust, alongside the instruments that measure altitude. It is crucial to understand the pressure along the route that is being flown, and due to differences across the world, the units are different. The main units are Hectopascals in the UK, and Inches of Mercury in the US, with the conversion being tricky to do mentally.
 
-This application allows users to input a numeric floating value, and find the conversion from Hectopascals (hPa) -> Inches of Mercury (inHg), or vice versa, inHg -> hPa. These metrics are Atmospheric Pressure units, with Hectopascals being the commonly used unit to measure it in the UK and Europe. Inches of Mercury are commonly used in the United States for the same purpose. Within Aviation, this is specifically important, as Pilots rely on knowing the different pressure values wherever they are flying, so their instruments read the correct height above sea level. Consistency across aircraft is vital for safety and collision avoidance.
+Therefore, this project aims to solve the issues that arise from this conversion that has to happen frequently. The main users that have to convert these numbers within the business are Pilots (the Pressure is referred to as the QNH), during their initial briefing phase, Flight Operations and Route Management. They require the ability to solely convert between Hectopascals (hPa) and Inches of Mercury (inHg), whilst also being able to retrieve the METAR for given airports based on the ICAO code. An ICAO code is an identifier for an Airport. For convenience, there needs to be an ability to automate moving the QNH (Pressure Value) from the METAR directly to the Converter, so there is a button to extract this.
 
-In an airline setting, this app provides consistent and up to date conversions between hPa and inHg. Different airlines often use different pressure metrics, which is why knowing the equivalent value is key. Pilots may use this when preparing for their flights, or Flight Planning may use it to understand the differences aceoss charts. Whilst this can be worked manually, it will not provide the level of accuracy that this app provides. 
 
 ## Features
 The app contains the following features:
-* The user is able to input the value they want to convert.
-* The user is able to select the units that the outputted value will be in.
+* The user is able to input a value they want to convert manually.
+* The user is able to select the units they want to convert to.
 * To convert the value, there is a clickable button to carry out the conversion and display it back to the user underneath, alongside the original value.
+* An input field for ICAO codes which will output the recent METAR for that Airport.
+* A copy button that extracts the Pressure from the METAR, and places it into the Converter, with the correct units selected in the dropdown.
 
 ## How to use the App
 
@@ -55,13 +57,15 @@ The designs overall match the tools created, with slightly differing colours, as
 
 ## Project Management
 
-![image](https://github.com/user-attachments/assets/52ad450f-d476-4d08-8c43-3b1c14aa8474)
+![Project Kanban Board](https://github.com/user-attachments/assets/95f6c47f-8a78-4edf-a1e5-709633cfcecd)
 
 Through this project, I have utilised GitHub Projects as the tool to manage my workflow and ensure I can adopt an Agile Way of Working. Project Management uses knowledge, skills and techniques to deliver something valuable, which in this is the app that I have created. Agile was the best way to work on this project as it offers an iterative approach to working that splits tasks into manageable "sprints". This also accounts for the variable nature of the tool, which could encounter bugs and require fixes on a interchangeable basis. Due to this way of working, I decided that Agile was better than a Waterfall approach. 
 
-I worked in small sprints that each had a set of aims and tickets to accomplish before reviewing the progress in that sprint, and making changes ready for the next sprint. This is easier in a group of people, as there is limited room for reviewers and external reviewers that can help evaluate the sprint progress. During this time, I kept my tickets (issues) within the project Kanban board, shown above. This allowed me to break the project development into chunks, that could be assigned to a specific label, branch and pull request. It also helps for visualising the work that had to be complete, adding checklists within each ticket that could track my progress. There are 5 sections on the board, **Backlog, Ready, In Progress, In Review & Done**. At the start of each sprint, tickets within the Backlog are prioritised, and moved to Ready when included in that current sprint, and then moved as required throughout the sprint.
+I worked in small sprints that each had a set of aims and tickets to accomplish before reviewing the progress in that sprint, and making changes ready for the next sprint. This is easier in a group of people, as there is limited room for reviewers and external reviewers that can help evaluate the sprint progress. During this time, I kept my tickets (issues) within the project Kanban board, shown above. This allowed me to break the project development into chunks, that could be assigned to a specific label, branch and pull request. It also helps for visualising the work that had to be complete, adding checklists within each ticket that could track my progress. There are 5 sections on the board, **Backlog, Ready, In Progress, In Review & Done**. At the start of each sprint, tickets within the Backlog are prioritised, and moved to Ready when included in that current sprint. From there, the ticket is worked on, and progress determined by the story points (sub-tasks within the ticket). The ticket will be moved to In-Review to allow for the intended outcome of the ticket to be checked, removing the chance of human error. The Done column is reserved for the tickets that are complete, and should also have a linked closed Pull Request. 
 
-To ensure that I was maintaining Agile methodologies, each branch that I created also followed the naming convention of feature/fix/documentation / issue-name. This method prevented scope creep, as I could see the issue that I was working on throughout the process. Likewise, when change did occur, it was added to the sprint where required. Utilising this Agile methodology allows for changes, unlike a traditional Waterfall chart, which will restrict changes until completion, extending the development time. When I changed my design, based on UI feedback, I assessed the time scale and overall impact on the sprint, and decided it was manageable within the current sprint. If I was in a team environment, I would ensure that Scrum meetings are incorporated throughout the sprints, allowing each member of the team to share blockers with progress, and for the Scrum Master to update on the sprint and project progress, including change requests.
+To ensure that I was maintaining Agile methodologies, each branch that I created also followed the naming convention of feature/fix/documentation / issue-name. This method prevented scope creep, as I could see the issue that I was working on throughout the process of comitting to the branch. Likewise, when change did occur within the scope, perhaps due to external feedback, it was added to the sprint and prioritised. Utilising this Agile methodology allows for changes, unlike a traditional Waterfall approach, which will restrict changes until completion, extending the development time. When I changed my MVP for Version 1.0 to develop Version 2.0, I first assessed the time scale and overall impact on the progress. This change warranted a new sprint, dedicated to the changes that would be made for the second version. If I was in a team environment, I would ensure that Scrum meetings are incorporated throughout the sprints, allowing each member of the team to share blockers with progress, and for the Scrum Master to update on the sprint and project progress, including change requests. Scrum meetings would also be able to gauge the progress of the sprint, viewing how each task is progressing through the stories. 
+
+After the first Sprint, I conducted a Sprint Review, which allowed me to review my progress during the Sprint, and it would allow me to present my work to the key stakeholders who will be using this app. Having this review after the first sprint, allows for feedback on the MVP, and allows stakeholders to raise questions, highlight issues and also offer improvements for the following sprint. With this, we were able to tailor the second Sprint, focussing on implementing the design changes and functionality that the stakeholder requested, which was to include the METAR data and the ability to extract the pressure directly from it and into the Converter. If we were approaching the project using the Waterfall methodology, this feedback would have been recieved after the first project iteration, meaning more time would be spent implementing changes afterwards.
 
 
 
