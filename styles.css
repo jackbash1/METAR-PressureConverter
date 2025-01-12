@@ -28,7 +28,7 @@ body {
     justify-content: space-between;
     gap: 20px;
     width: 100%;
-    align-items: stretch; /* Ensures both sections are equal in height */
+    align-items: stretch; /* ensures both sections are equal in height */
 }
 
 .section {
@@ -40,6 +40,17 @@ body {
     padding: 0 20px; /* add padding to ensure spacing within the sections */
 }
 
+/* adding a dividing line between the METAR and Pressure Sections */
+.container::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 90%; /* adjust height as needed */
+    background-color: #cccccc; /* light gray dividing line */
+    left: 50%; /* center the line */
+    transform: translateX(-50%);
+}
+
 .title {
     font-size: 1.6rem;
     font-weight: bold;
@@ -47,10 +58,11 @@ body {
     margin-bottom: 20px;
 }
 
-.converter-form {
+.decoder-form, .converter-form {
     display: flex;
     flex-direction: column;
-    gap: 5px; /* add spacing between form elements */
+    gap: 10px;
+    margin-top: 10px; /* adding spacing below the title */
 }
 
 label {
