@@ -3,26 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atmospheric Pressure Converter</title>
+    <title>METAR & Pressure Converter</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <div class="title">Atmospheric Pressure Converter</div>
-        <form class="converter-form" onsubmit="return false;">
-            <label for="pressure-input">Enter Value</label>
-            <input type="text" id="pressure-input" name="pressure-input" value="1013">
-            
-            <label for="unit-selection" class="unit-label">Select Input Units</label>
-            <select id="unit-selection" name="unit-selection">
-                <option value="hpa">Hectopascals</option>
-                <option value="inhg">Inches of Mercury</option>
-            </select>
+        <!-- METAR -->
+        <div class="section" id="metar">
+            <div class="title">METAR</div>
+        </div>
 
-            <button type="button" class="convert-btn" id="convert-btn">Convert Pressure</button>
-            <label for="conversion-output" class="output-label">Conversion Result</label>
-            <output id="conversion-output" name="conversion-output">1013 hPa = 29.91 inHg</output>
-        </form>
+        <!-- Pressure Converter -->
+        <div class="section" id="pressure-converter"></div>
+            <div class="title">Atmospheric Pressure Converter</div>
+            <form class="converter-form" onsubmit="return false;">
+                <label for="pressure-input">Enter Value</label>
+                <input type="text" id="pressure-input" name="pressure-input" value="1013">
+                
+                <label for="unit-selection" class="unit-label">Select Input Units</label>
+                <select id="unit-selection" name="unit-selection">
+                    <option value="hpa">Hectopascals</option>
+                    <option value="inhg">Inches of Mercury</option>
+                </select>
+
+                <button type="button" class="convert-btn" id="convert-btn">Convert Pressure</button>
+                <label for="conversion-output" class="output-label">Conversion Result</label>
+                <output id="conversion-output" name="conversion-output">1013 hPa = 29.91 inHg</output>
+            </form>
+        </div>
     </div>
     <script src="script.js"></script>
     <script>
