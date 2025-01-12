@@ -14,11 +14,15 @@
             <form class="decoder-form" onsubmit="return false;">
                 <label for="airport-code">Enter Airport ICAO Code</label>
                 <input type="text" id="icao" name="airport-code" placeholder="EGLL">
+
+                <button type="button" class="convert-btn" id="fetchMetar">Decode METAR</button>
+                <output id="metar-output" name="metar-output">METAR</output>
+                <button type="button" class="convert-btn" id="copy-qnh-btn">Copy QNH</button>
             </form>
         </div>
 
         <!-- Pressure Converter -->
-        <div class="section" id="pressure-converter"></div>
+        <div class="section" id="pressure-converter">
             <div class="title">Atmospheric Pressure Converter</div>
             <form class="converter-form" onsubmit="return false;">
                 <label for="pressure-input">Enter Value</label>
@@ -34,6 +38,7 @@
                 <label for="conversion-output" class="output-label">Conversion Result</label>
                 <output id="conversion-output" name="conversion-output">1013 hPa = 29.91 inHg</output>
             </form>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
