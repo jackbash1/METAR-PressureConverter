@@ -7,31 +7,42 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #e6f7ff; /* Light blue background */
+    background-color: #e6f7ff; /* light blue background */
     font-family: 'Poppins', sans-serif;
 }
 
 .container {
-    background-color: #ffffff; /* White box */
-    padding: 30px;
+    display: flex;
+    gap: 20px;
+    background-color: #ffffff;
+    padding: 20px;
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
-    width: 500px; /* Increased width for more content space */
-    height: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* slight shadow for depth */
+    height: 500px;
+    width: 1200px;
+    position: relative;
+}
+
+.section {
+    flex: 1;
+    display: flex;
+    flex-direction: column; /* arrange content vertically */
+    justify-content: flex-start; /* align content at the top */
     text-align: center;
+    padding: 0 20px; /* add padding to ensure spacing within the sections */
 }
 
 .title {
     font-size: 1.6rem;
     font-weight: bold;
-    color: #333333; /* Darker color for better readability */
+    color: #333333; /* darker color for better readability */
     margin-bottom: 20px;
 }
 
 .converter-form {
     display: flex;
     flex-direction: column;
-    gap: 5px; /* Add spacing between form elements */
+    gap: 5px; /* add spacing between form elements */
 }
 
 label {
@@ -59,7 +70,7 @@ select {
     border-radius: 5px;
     box-sizing: border-box;
     background-color: #ffffff;
-    appearance: none; /* Remove default dropdown styling for consistency */
+    appearance: none; /* remove default dropdown styling for consistency */
     margin-bottom: 15px;
 }
 
@@ -71,7 +82,7 @@ select {
     border-radius: 5px;
     box-sizing: border-box;
     background-color: #ffffff;
-    appearance: none; /* Remove default dropdown styling */
+    appearance: none; /* remove default dropdown styling */
     background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"%3E%3Cpolyline points="6 9 12 15 18 9"%3E%3C/polyline%3E%3C/svg%3E');
     background-repeat: no-repeat;
     background-position: right 10px center;
@@ -81,14 +92,14 @@ select {
 
 select:focus {
     outline: none;
-    border-color: #007bff; /* Blue border on focus */
+    border-color: #007bff; /* blue border on focus */
 }
 
 .convert-btn {
     width: 100%;
     padding: 10px;
     font-size: 1.2rem;
-    background-color: #ff4d4d; /* Blue button */
+    background-color: #ff4d4d; /* blue button */
     color: white;
     border: none;
     border-radius: 5px;
@@ -98,7 +109,7 @@ select:focus {
 }
 
 .convert-btn:hover {
-    background-color: #ff4d4d; /* Darker blue on hover */
+    background-color: #ff4d4d; /* darker blue on hover */
 }
 
 output {
