@@ -74,6 +74,11 @@
             // clearing the previous result
             metarOutput.textContent = 'Loading METAR...';
 
+            if (!icao) {
+                metarOutput.textContent = 'Please enter a valid ICAO code!';
+                return;
+            }
+
             const apiKey = '2KRDUM6FnVKMg7Wd-1xaXY34m3tCapKTT06rPSlWIGY';
         });
 
@@ -95,6 +100,8 @@
             } else if (qnhType === 'Q') {
                 // the hPa value remains the same as it is reported correctly
                 qnhValue = parseInt(qnhValueRaw, 10);
+            } else {
+                alert('No QNH found in the METAR!')
             }
 
             // this creates a unit for the QNH value that will fill the dropdown when copied
