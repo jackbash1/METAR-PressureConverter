@@ -77,6 +77,9 @@
             if (!icao) {
                 metarOutput.textContent = 'Please enter a valid ICAO code!';
                 return;
+            } else if (!/^[A-Z]{4}$/.test(icao)) {
+                metarOutput.textContent = 'The ICAO code must be exactly 4 letters and contain no numbers or special characters!';
+                return;
             }
 
             const apiKey = '2KRDUM6FnVKMg7Wd-1xaXY34m3tCapKTT06rPSlWIGY';
