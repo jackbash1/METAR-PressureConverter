@@ -88,21 +88,8 @@
             const qnhType = qnhMatch[1]; // A or Q
             const qnhValueRaw = qnhMatch[2]; // numeric value
             let qnhValue;
-        
-            if (qnhType === 'A') {
-                // convert inHg value to the correct decimal format
-                qnhValue = (parseFloat(qnhValueRaw) / 100).toFixed(2); // fixes the value to 2 d.p as required
-            } else if (qnhType === 'Q') {
-                // the hPa value remains the same as it is reported correctly
-                qnhValue = parseInt(qnhValueRaw, 10);
-            }
 
-            // this creates a unit for the QNH value that will fill the dropdown when copied
-            if (qnhValue <= 50) {
-                unit = 'inhg'; // inHg if value <= 50
-            } else {
-                unit = 'hpa'; // hPa otherwise
-            }
+            // functions to go here once TDD occurs
 
             document.getElementById('pressure-input').value = qnhValue; // fill the 
             document.getElementById('unit-selection').value = unit;
