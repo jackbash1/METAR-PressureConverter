@@ -83,6 +83,29 @@
             }
 
             const apiKey = '2KRDUM6FnVKMg7Wd-1xaXY34m3tCapKTT06rPSlWIGY';
+            const apiUrl = `https://avwx.rest/api/metar/${icao}?token=${apiKey}`;
+
+            fetch(apiUrl)
+                .then((response) => {
+                    if (!response.ok) {
+                        throw new Error(`Could not fetch METAR data: ${response.statusText}`);
+                    }
+                    return response.json();
+                })
+                .then((data) => {
+                    if (data.error || !data.raw) {
+                        metarOutput.textContent = `Error: Could not fetch data for ICAO code "${icao}".`;
+                    } else {
+                        metarOutput.innerHTML = `
+                            <strong>Raw METAR:</strong> ${data.raw}<br>
+                            <strong>Flight Rules:</strong> ${data.flight_rules}<br>
+                            <strong>Time:</strong> ${data.time.dt}<br>
+                        `;
+                    }
+                })
+                .catch((error) => {
+                    metarOutput.textContent = `Error: ${error.message}`;
+                });
         });
 
 
