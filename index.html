@@ -120,15 +120,7 @@
             const qnhValueRaw = qnhMatch[2]; // numeric value
             let qnhValue;
         
-            if (qnhType === 'A') {
-                // convert inHg value to the correct decimal format
-                qnhValue = (parseFloat(qnhValueRaw) / 100).toFixed(2); // fixes the value to 2 d.p as required
-            } else if (qnhType === 'Q') {
-                // the hPa value remains the same as it is reported correctly
-                qnhValue = parseInt(qnhValueRaw, 10);
-            } else {
-                alert('No QNH found in the METAR!')
-            }
+            qnhValue = convertQNH(qnhType, qnhValueRaw)
 
             // this creates a unit for the QNH value that will fill the dropdown when copied
             if (qnhValue <= 50) {
