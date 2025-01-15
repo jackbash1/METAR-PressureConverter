@@ -45,3 +45,24 @@ describe('convertToHPa function tests', () => {
         expect(convertToHpa(29.92)).toBe("1013.21")
     });
 });
+
+// creates the set of the tests for the QNH converter
+describe('convertQNH function tests', () => {
+    test('that convertQNH converts inHg values correctly for "A"', () => {
+        expect(convertQNH('A','3002')).toBe('30.02');
+    })
+    test('that convertQNH converts inHg values correctly for "A" and high values', () => {
+        expect(convertQNH('A','5002')).toBe('50.02')
+    })
+    test('that convertQNH returns the correct hPa value for "Q"', () => {
+        expect(convertQNH('Q','1013')).toBe(1013)
+    })
+    test('that convertQNH returns the correct hPa for all values', () => {
+        expect(convertQNH('Q','1035')).toBe(1035)
+    })
+    test('that convertQNH can handle values that are not A or Q', () => {
+        expect(() => {
+            convertQNH('J','1013');
+        }).toThrow("No QNH found in the METAR!")
+    })
+});
