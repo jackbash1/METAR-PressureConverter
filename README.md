@@ -71,6 +71,64 @@ After the first Sprint, I conducted a Sprint Review, which allowed me to review 
 
 To access the live METAR data, I utilised a [free Weather API](https://info.avwx.rest/) that provides Aviation Weather reports. The free package allows up to 4,000 calls per day. To retrieve your own token, register for an account on the webiste, then Tokens, and create one. This can then be used to update the JavaScript code. 
 
+## Test Driven Development
+
+Test Driven Development (TDD) is an development process that involves writing a failing test, creating the passing function code, and then refactoring. It is an iterative process that ensures the final function passes all the tests. The first test is created with the full functionality in mind, and then the function should be written incrementally to pass each test. The code written will pass the test, and will require refactoring over time to ensure that it is fully automated for all situations. Below I have outlined a few stages of my TDD for one of my functions.
+
+First Failing Test:
+
+![First Failing Test](https://github.com/user-attachments/assets/cba313ba-a2f4-4f60-9d5a-040a7b971e65)
+
+Code to Pass First Test:
+
+![First Working Function](https://github.com/user-attachments/assets/259474b1-48f7-499c-acb3-6b2c4519596b)
+
+Second Failing Test:
+
+![Second Failing Test](https://github.com/user-attachments/assets/2b7cf33f-4eaa-45fc-a452-5ce852e0b1c5)
+
+Code to Pass Second Failing Test:
+
+![Second Working Function](https://github.com/user-attachments/assets/c4186fc6-2e5f-4125-bf04-1ac662a51061)
+
+Third Failing Test:
+
+![Third Failing Test](https://github.com/user-attachments/assets/d4d5e781-ffd7-4984-add2-f15d5fbad48f)
+
+Code to Pass Third Failing Test:
+
+![Third Working Function](https://github.com/user-attachments/assets/1fe8a4c7-c030-4787-a3aa-125e9c1b810f)
+
+Fourth Failing Test:
+
+![Fourth Failing Test](https://github.com/user-attachments/assets/132aa6b6-e9c6-4072-919d-89b9f36e577f)
+
+Code to Pass Fourth Failing Test:
+
+![Fourth Working Function](https://github.com/user-attachments/assets/4973c946-1a4d-4f00-b6b7-3bee14458547)
+
+Fifth Failing Test:
+
+![Fifth Failing Test](https://github.com/user-attachments/assets/e525363d-839e-463a-aaa6-2d600245de3f)
+
+Code to Pass Fifth Failing Test:
+
+![Fifth Working Function](https://github.com/user-attachments/assets/cfd0254a-b06e-4fca-b49a-e9fe17f37d27)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
