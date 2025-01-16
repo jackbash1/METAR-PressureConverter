@@ -73,47 +73,23 @@ To access the live METAR data, I utilised a [free Weather API](https://info.avwx
 
 ## Test Driven Development
 
-Test Driven Development (TDD) is an development process that involves writing a failing test, creating the passing function code, and then refactoring. It is an iterative process that ensures the final function passes all the tests. The first test is created with the full functionality in mind, and then the function should be written incrementally to pass each test. The code written will pass the test, and will require refactoring over time to ensure that it is fully automated for all situations. Below I have outlined a few stages of my TDD for one of my functions.
+Test Driven Development (TDD) is an development process that involves writing a failing test, creating the passing function code, and then refactoring. It is an iterative process that ensures the final function passes all the tests. The first test is created with the full functionality in mind, and then the function should be written incrementally to pass each test. The code written will pass the test, and will require refactoring over time to ensure that it is fully automated for all situations. Below I have outlined one iterations of using TDD for one of my functions.
 
 First Failing Test:
 
 ![First Failing Test](https://github.com/user-attachments/assets/cba313ba-a2f4-4f60-9d5a-040a7b971e65)
 
+I begun my TDD by writing a test that would fail, because the function code has not yet been written. The test is built with the function of the app in mind, it is not a fake test, it will ensure that the functionality works correctly.
+
 Code to Pass First Test:
 
 ![First Working Function](https://github.com/user-attachments/assets/259474b1-48f7-499c-acb3-6b2c4519596b)
 
-Second Failing Test:
+Then, we write the passing code for that test. Initially, this is very simple, we make it pass the test however we can. With further iterations, I created more pressing tests, where I would need to refactor my code and create if statements and automation. In doing this, I was creating the best code for the function, ensuring that is was passing each test, and would pass for all values of those tests. I had multiple iterations of this cycle, ensuring that the function was built to pass all of the required tests. You can find more examples of the changes and tests I created, here.
 
-![Second Failing Test](https://github.com/user-attachments/assets/2b7cf33f-4eaa-45fc-a452-5ce852e0b1c5)
 
-Code to Pass Second Failing Test:
 
-![Second Working Function](https://github.com/user-attachments/assets/c4186fc6-2e5f-4125-bf04-1ac662a51061)
 
-Third Failing Test:
-
-![Third Failing Test](https://github.com/user-attachments/assets/d4d5e781-ffd7-4984-add2-f15d5fbad48f)
-
-Code to Pass Third Failing Test:
-
-![Third Working Function](https://github.com/user-attachments/assets/1fe8a4c7-c030-4787-a3aa-125e9c1b810f)
-
-Fourth Failing Test:
-
-![Fourth Failing Test](https://github.com/user-attachments/assets/132aa6b6-e9c6-4072-919d-89b9f36e577f)
-
-Code to Pass Fourth Failing Test:
-
-![Fourth Working Function](https://github.com/user-attachments/assets/4973c946-1a4d-4f00-b6b7-3bee14458547)
-
-Fifth Failing Test:
-
-![Fifth Failing Test](https://github.com/user-attachments/assets/e525363d-839e-463a-aaa6-2d600245de3f)
-
-Code to Pass Fifth Failing Test:
-
-![Fifth Working Function](https://github.com/user-attachments/assets/cfd0254a-b06e-4fca-b49a-e9fe17f37d27)
 
 
 
