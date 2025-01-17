@@ -4,7 +4,7 @@ test ('that Jest is working', () => {
 }) 
 
 // imports the functions from script.js
-const { convertToInHg, convertToHpa } = require('./script')
+const { convertToInHg, convertToHpa, convertQNH, getUnit } = require('./script')
 
 // creates the first set of tests testing the InHg function
 describe('convertToInHg function tests', () => {
@@ -64,5 +64,20 @@ describe('convertQNH function tests', () => {
         expect(() => {
             convertQNH('J','1013');
         }).toThrow("No QNH found in the METAR!")
+    })
+});
+
+// creates the tests for the getUnit function
+describe('getUnit function tests', () => {
+    test('should return "inhg" when the qnhType is "A"', () => {
+        expect(getUnit('A')).toBe('inhg');
+    })
+    test('should return "hpa" when the qnhType is "Q"', () => {
+        expect(getUnit('Q')).toBe('hpa');
+    })
+    test('should return Error when the qnhType is not "A" or "Q"', () => {
+        expect(() => {
+            getUnit('G')
+        }).toThrow('Invalid QNH type in METAR!');
     })
 });
