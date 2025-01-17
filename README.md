@@ -71,6 +71,40 @@ After the first Sprint, I conducted a Sprint Review, which allowed me to review 
 
 To access the live METAR data, I utilised a [free Weather API](https://info.avwx.rest/) that provides Aviation Weather reports. The free package allows up to 4,000 calls per day. To retrieve your own token, register for an account on the webiste, then Tokens, and create one. This can then be used to update the JavaScript code. 
 
+## Test Driven Development
+
+Test Driven Development (TDD) is an development process that involves writing a failing test, creating the passing function code, and then refactoring. It is an iterative process that ensures the final function passes all the tests. The first test is created with the full functionality in mind, and then the function should be written incrementally to pass each test. The code written will pass the test, and will require refactoring over time to ensure that it is fully automated for all situations. Below I have outlined one iterations of using TDD for one of my functions.
+
+First Failing Test:
+
+![First Failing Test](https://github.com/user-attachments/assets/cba313ba-a2f4-4f60-9d5a-040a7b971e65)
+
+I begun my TDD by writing a test that would fail, because the function code has not yet been written. The test is built with the function of the app in mind, it is not a fake test, it will ensure that the functionality works correctly.
+
+Code to Pass First Test:
+
+![First Working Function](https://github.com/user-attachments/assets/259474b1-48f7-499c-acb3-6b2c4519596b)
+
+Then, we write the passing code for that test. Initially, this is very simple, we make it pass the test however we can. With further iterations, I created more pressing tests, where I would need to refactor my code and create if statements and automation. In doing this, I was creating the best code for the function, ensuring that is was passing each test, and would pass for all values of those tests. I had multiple iterations of this cycle, ensuring that the function was built to pass all of the required tests. You can find more examples of the changes and tests I created, here.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
