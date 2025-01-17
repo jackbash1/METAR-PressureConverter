@@ -1,5 +1,5 @@
 {
-  "name": "pressureconverter",
+  "name": "metar-pressureconverter",
   "version": "1.0.0",
   "description": "Code &amp; Documentation for the Pressure Converter Application. Created by Jack Bashford. GitHub: @jackbash1",
   "main": "script.js",
