@@ -17,15 +17,23 @@ function convertQNH(qnhType, qnhValueRaw) {
         return qnhValue;
     }
     else if (qnhType === 'Q') {
-        // keeps the hPa value the same as reads correct in METAR
         qnhValue = parseInt(qnhValueRaw, 10)
         return qnhValue;
     }    
     else {
         throw new Error('No QNH found in the METAR!')
-}}   
+}}      
+
+function getUnit(qnhType) {
+    if (qnhType === 'A') {
+        return 'inhg'
+    } else if (qnhType === 'Q') {
+        return 'hpa'
+    } else {
+        throw new Error('Invalid QNH type in METAR!')
+}}
 
 // exports for the testing functions
 if (typeof module !== "undefined") {
-    module.exports = { convertToInHg, convertToHpa, convertQNH };
+    module.exports = { convertToInHg, convertToHpa, convertQNH, getUnit };
 }
