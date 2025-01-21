@@ -85,7 +85,7 @@ Code to Pass First Test:
 
 ![First Working Function](https://github.com/user-attachments/assets/259474b1-48f7-499c-acb3-6b2c4519596b)
 
-Then, we write the passing code for that test. Initially, this is very simple, we make it pass the test however we can. With further iterations, I created more pressing tests, where I would need to refactor my code and create if statements and automation. In doing this, I was creating the best code for the function, ensuring that is was passing each test, and would pass for all values of those tests. I had multiple iterations of this cycle, ensuring that the function was built to pass all of the required tests. You can find more examples of the changes and tests I created, here.
+Then, we write the passing code for that test. Initially, this is very simple, we make it pass the test however we can. With further iterations, I created more pressing tests, where I would need to refactor my code and create if statements and automation. In doing this, I was creating the best code for the function, ensuring that is was passing each test, and would pass for all values of those tests. I had multiple iterations of this cycle, ensuring that the function was built to pass all of the required tests. You can find more examples of the changes and tests I created, [here](https://github.com/jackbash1/METAR-PressureConverter/pull/58/files).
 
 
 
