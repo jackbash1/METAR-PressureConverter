@@ -137,6 +137,21 @@ npm test -- --coverage --watchAll=false
 
 ## Technical Documentation
 
+### Technical Stack
+
+* Hyper Text Markup Language (HTML)
+* JavaScript (JS)
+* Cascading Style Sheets (CSS)
+
+### Project Management
+
+* [GitHub Projects](https://github.com/users/jackbash1/projects/2/views/1)
+* GitHub
+
+### Product Design
+
+* [Figma](https://www.figma.com/proto/SKUixSRww6lVhCeuEjPoJe/Design-Prototype?node-id=46-2&t=UTFqlbxfzRfOGJ9T-1)
+
 ### Files to run the App
 
 * index.html
@@ -147,6 +162,11 @@ npm test -- --coverage --watchAll=false
 
 * script.test.js
 * package.json
+
+### Other Tools
+
+* [Microsoft Forms](https://forms.office.com/Pages/DesignPageV2.aspx)
+* Documentation for HTML, JS and CSS.
 
 ### Additional Sites used
 
