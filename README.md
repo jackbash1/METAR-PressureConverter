@@ -174,6 +174,39 @@ npm test -- --coverage --watchAll=false
 * API Website: [https://info.avwx.rest/](https://info.avwx.rest/)
 
 
+## Google Lighthouse Audit
+
+Google Lightouse is an in-built function within Google Chrome, allowing easy quality assessments of webpages. With a series of audits, it assess our webpage, returning a rating from 0 - 100, with 100 being the top rated score.
+
+The audits that are included are:
+
+* Performance
+* Accessibility
+* Best Practices
+* SEO (Search Engine Optimisation)
+
+![Google Lighthouse Audit](https://github.com/user-attachments/assets/fcbced18-3126-4a03-b125-9cdd9694b105)
+
+### Performance
+
+The Audit has scored the page a Performance Score of 100, the top score. Whilst this highlights that the app is performing well, and the code is optimised, it is important to ensure it remains like this. One method that aims to keep this consistency is Continuous Integration within GitHub. This is mentioned within the README, and through this, any changes to the app are suitably tested to detect issues.
+
+### Accessibility
+
+Accessibility scored 91 on the Audit, which is a good score, with room for improvements. Namely, increasing the contrast of the text within my buttons. The reason that having a contrast is important is to enable users with reduced vision and those colourblind users to distinguish the writing. 
+
+How do I improve this?
+
+In the next sprint, there should be a ticket to implement a colourblind setting, which will ensure a high contrast pairing of colours. This should also be extended to different types of colourblindness. 
+
+### Best Practices
+
+This is another perfect score, which means that the app is using the best practices possible, this should be continuously tested.
+
+### SEO (Search Engine Optimisation)
+
+The SEO scores determines how easily the website could be found through search engines. The score of 90 is a great score, as the website has not been tailored for public use, and therefore does not contain meta description. That is one method that could be developed in the next sprint, if the website was to be productionised for the public.
+
 
 
 
