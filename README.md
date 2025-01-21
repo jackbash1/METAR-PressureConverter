@@ -5,7 +5,7 @@ Code &amp; Documentation for the METAR and Pressure Converter Application. Creat
 
 ## Context
 
-*PLACE SCREENSHOT OF FINAL APP HERE*
+![Final App](https://github.com/user-attachments/assets/dfa5c3e5-13ed-4b67-aedb-bb586254f623)
 
 Within an airline, there are lots of people that work with Atmospheric Pressure daily. Atmospheric Pressure is Air Pressure that is within the Earth's Atmosphere, and it affects the weather depending on high or low pressure. More importantly, Pressure directly impacts Aviation, and it can cause variations in lift, drag and thrust, alongside the instruments that measure altitude. It is crucial to understand the pressure along the route that is being flown, and due to differences across the world, the units are different. The main units are Hectopascals in the UK, and Inches of Mercury in the US, with the conversion being tricky to do mentally.
 
