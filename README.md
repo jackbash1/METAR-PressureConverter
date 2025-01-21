@@ -69,7 +69,11 @@ After the first Sprint, I conducted a Sprint Review, which allowed me to review 
 
 ## API for METAR Data
 
-To access the live METAR data, I utilised a [free Weather API](https://info.avwx.rest/) that provides Aviation Weather reports. The free package allows up to 4,000 calls per day. To retrieve your own token, register for an account on the webiste, then Tokens, and create one. This can then be used to update the JavaScript code. 
+To access the live METAR data, I utilised a [free Weather API](https://info.avwx.rest/) that provides Aviation Weather reports. The free package allows up to 4,000 calls per day. To retrieve your own token, register for an account on the webiste, then Tokens, and create one. This can then be used to update the JavaScript code. To do this, navigate to Line 87 of index.html and alter the key:
+
+```sh
+const apiKey = 'KeyGoesHere'; // API Key to call METAR data
+```
 
 ## Test Driven Development
 
@@ -86,6 +90,69 @@ Code to Pass First Test:
 ![First Working Function](https://github.com/user-attachments/assets/259474b1-48f7-499c-acb3-6b2c4519596b)
 
 Then, we write the passing code for that test. Initially, this is very simple, we make it pass the test however we can. With further iterations, I created more pressing tests, where I would need to refactor my code and create if statements and automation. In doing this, I was creating the best code for the function, ensuring that is was passing each test, and would pass for all values of those tests. I had multiple iterations of this cycle, ensuring that the function was built to pass all of the required tests. You can find more examples of the changes and tests I created, [here](https://github.com/jackbash1/METAR-PressureConverter/pull/58/files).
+
+## User Documentation
+
+To execute the files, you require Node and npm. Follow the below steps to ensure that you can execute the files.
+
+### 1. Ensure node and npm are installed by running the following commands in your terminal:
+
+```sh
+node -v
+```
+```sh
+npm -v
+```
+If they are not installed, follow the steps on [npm Docs](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+
+### 2. Afterwards, clone this repo:
+
+```sh
+git clone https://github.com/jackbash1/METAR-PressureConverter.git
+```
+This should be everything that you need to execute the files. Navigate into the folder you have cloned to find the code.
+
+## Running all tests
+
+### 3. Before running any code below, make sure npm is installed in the terminal.
+
+```sh
+npm install
+```
+
+### 4. To run the unit tests for the app, run the following command:
+
+```sh
+npm test
+```
+This runs the Unit Tests within the app.
+
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### 5. To view full tests and code coverage for the code:
+
+```sh
+npm test -- --coverage --watchAll=false
+```
+
+## Technical Documentation
+
+### Files to run the App
+
+* index.html
+* script.js
+* styles.css
+
+### Files used for Testing
+
+* script.test.js
+* package.json
+
+### Additional Sites used
+
+* Codecov to track Code Coverage from Unit Tesing: [https://about.codecov.io/](https://about.codecov.io/)
+* API Website: [https://info.avwx.rest/](https://info.avwx.rest/)
+
 
 
 
