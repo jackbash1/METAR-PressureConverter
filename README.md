@@ -3,7 +3,9 @@ Code &amp; Documentation for the METAR and Pressure Converter Application. Creat
 
 [![codecov](https://codecov.io/gh/jackbash1/METAR-PressureConverter/graph/badge.svg?token=QPCR8QED5I)](https://codecov.io/gh/jackbash1/METAR-PressureConverter)
 
-## Context
+<details open><summary>Purpose</summary>
+
+## Purpose
 
 ![Final App](https://github.com/user-attachments/assets/dfa5c3e5-13ed-4b67-aedb-bb586254f623)
 
@@ -23,16 +25,25 @@ The app contains the following features:
 ## How to use the App
 
 ![App Demo](https://github.com/user-attachments/assets/49afee50-bf81-4796-9979-0c21e469b79d)
+</details>
 
+<details open>
+<summary>Design</summary>
 
 ## Design Stage and [Prototyping](https://www.figma.com/proto/SKUixSRww6lVhCeuEjPoJe/Design-Prototype?node-id=46-2&t=UTFqlbxfzRfOGJ9T-1)
 
-### User Personas
+To design my application, including all wireframes, low-fidelity designs, and personas, I used Figma. Figma is an online tool that allows design and development of products, collaboratively across teams. In the case of this project, it also allowed me to create prototype designs of the application, to scale with screen sizes. It offers users interactivity, which can help to detect issues with the design before the coding happens, reducing the time spent in sprints.  
+
+### User Personas and Empathy Map
+
+User Personas were collated based on personal understanding of the Job Roles, and asking those with experience in those fields. This allowed me to form a picture of the roles they work, the traits they possess, and also the Painpoints and Needs from their perspectives. With this information, we can better inform the design, and features of the app.
 
 ![User Personas](https://github.com/user-attachments/assets/c2b02fb4-8340-454b-af68-a2a363130fd3)
 
+An Empathy Map was developed before the intial designing of the app took place, it allowed me to understand how our Users feel, and experience the emotions that they feel on a day to day basis. By empathising with my end users, I gain a better understanding of the requirements for the app. This is one way to remove Scope Creep, with limited Stakeholder interaction.
 
-To design my application, I used Figma, which is an online tool that allows design and development of products, collaboratively across teams. In the case of this project, it allowed me to create prototype designs of the application, to scale with screen sizes. It offers users interactivity, which can help to detect issues with the design. 
+![Empathy Map](https://github.com/user-attachments/assets/5efb7a4d-58fe-4bf6-a789-cba5ff1e7ee1)
+
 
 I had 2 Wireframe designs for Version 1.0 of the app, shown below, they offer the same functions, in a different aesthetic manner. To decide on the best design, I took onboard user feedback, recorded within a Google Form from my colleagues. This was as simple as showing the different designs, asking which was preferred, and ultimately any features that users would like to see. This allowed me to iteratively improve my designs, before concluding with the final design. 
 
@@ -59,6 +70,7 @@ Ulitmately, Design One was chosen for the final design. The reason this design w
 ![Wireframe Designs V2.0](https://github.com/user-attachments/assets/7af719f9-0fa4-45c4-a4c0-930595631106)
 
 The designs overall match the tools created, with slightly differing colours, as decided during the development process. It offered an insight into how the tool should work, before it was coded in both instances. The prototypes allowed me to use Test Driven Development when coding the app and its tests.
+</details>
 
 ## Project Management
 
@@ -71,14 +83,6 @@ I worked in small sprints that each had a set of aims and tickets to accomplish 
 To ensure that I was maintaining Agile methodologies, each branch that I created also followed the naming convention of feature/fix/documentation / issue-name. This method prevented scope creep, as I could see the issue that I was working on throughout the process of comitting to the branch. Likewise, when change did occur within the scope, perhaps due to external feedback, it was added to the sprint and prioritised. Utilising this Agile methodology allows for changes, unlike a traditional Waterfall approach, which will restrict changes until completion, extending the development time. When I changed my MVP for Version 1.0 to develop Version 2.0, I first assessed the time scale and overall impact on the progress. This change warranted a new sprint, dedicated to the changes that would be made for the second version. If I was in a team environment, I would ensure that Scrum meetings are incorporated throughout the sprints, allowing each member of the team to share blockers with progress, and for the Scrum Master to update on the sprint and project progress, including change requests. Scrum meetings would also be able to gauge the progress of the sprint, viewing how each task is progressing through the stories. 
 
 After the first Sprint, I conducted a Sprint Review, which allowed me to review my progress during the Sprint, and it would allow me to present my work to the key stakeholders who will be using this app. Having this review after the first sprint, allows for feedback on the MVP, and allows stakeholders to raise questions, highlight issues and also offer improvements for the following sprint. With this, we were able to tailor the second Sprint, focussing on implementing the design changes and functionality that the stakeholder requested, which was to include the METAR data and the ability to extract the pressure directly from it and into the Converter. If we were approaching the project using the Waterfall methodology, this feedback would have been recieved after the first project iteration, meaning more time would be spent implementing changes afterwards.
-
-## API for METAR Data
-
-To access the live METAR data, I utilised a [free Weather API](https://info.avwx.rest/) that provides Aviation Weather reports. The free package allows up to 4,000 calls per day. To retrieve your own token, register for an account on the webiste, then Tokens, and create one. This can then be used to update the JavaScript code. To do this, navigate to Line 87 of index.html and alter the key:
-
-```sh
-const apiKey = 'KeyGoesHere'; // API Key to call METAR data
-```
 
 ## Test Driven Development
 
@@ -139,6 +143,11 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 ```sh
 npm test -- --coverage --watchAll=false
 ```
+To change the API key, navigate to Line 87 of index.html and alter the key:
+
+```sh
+const apiKey = 'KeyGoesHere'; // API Key to call METAR data
+```
 
 ## Technical Documentation
 
@@ -176,7 +185,7 @@ npm test -- --coverage --watchAll=false
 ### Additional Sites used
 
 * Codecov to track Code Coverage from Unit Tesing: [https://about.codecov.io/](https://about.codecov.io/)
-* API Website: [https://info.avwx.rest/](https://info.avwx.rest/)
+* API Website that provides free live METAR Data: [https://info.avwx.rest/](https://info.avwx.rest/)
 
 
 ## Google Lighthouse Audit
