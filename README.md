@@ -9,12 +9,20 @@ Code &amp; Documentation for SE Summative One: METAR and Pressure Converter Appl
 
 ## Purpose
 
-![Final App](https://github.com/user-attachments/assets/dfa5c3e5-13ed-4b67-aedb-bb586254f623)
+![Final App](https://github.com/user-attachments/assets/654cba3b-4166-4622-9dd1-f85dea5d0836)
+***Figure One**: Showing the App Layout*
+
 
 Within an airline, there are lots of people that work with Atmospheric Pressure daily. Atmospheric Pressure is Air Pressure that is within the Earth's Atmosphere, and it affects the weather depending on high or low pressure. More importantly, Pressure directly impacts Aviation, and it can cause variations in lift, drag and thrust, alongside the instruments that measure altitude. It is crucial to understand the pressure along the route that is being flown, and due to differences across the world, the units are different. The main units are Hectopascals in the UK, and Inches of Mercury in the US, with the conversion being tricky to do mentally.
 
 Therefore, this project aims to solve the issues that arise from this conversion that has to happen frequently. The main users that have to convert these numbers within the business are Pilots (the Pressure is referred to as the QNH), during their initial briefing phase, Flight Operations and Route Management. They require the ability to solely convert between Hectopascals (hPa) and Inches of Mercury (inHg), whilst also being able to retrieve the METAR for given airports based on the ICAO code. An ICAO code is an identifier for an Airport. For convenience, there needs to be an ability to automate moving the QNH (Pressure Value) from the METAR directly to the Converter, so there is a button to extract this.
 
+</details>
+
+<details closed>
+<summary>User Documentation 📄</summary>
+
+## User Documentation
 
 ## Features
 The app contains the following features:
@@ -26,13 +34,8 @@ The app contains the following features:
 
 ## How to use the App
 
-![App Demo](https://github.com/user-attachments/assets/49afee50-bf81-4796-9979-0c21e469b79d)
-</details>
-
-<details closed>
-<summary>User Documentation 📄</summary>
-
-## User Documentation
+![App Demo](https://github.com/user-attachments/assets/8cf8d272-0192-4429-8b48-bee872d3c072)
+***Figure Two**: Animated GIF showing a short Demo of the App working. It covers all buttons and possibilities for use.*
 
 </details>
 
@@ -92,9 +95,9 @@ const apiKey = 'KeyGoesHere'; // API Key to call METAR data
 
 ### Technical Stack
 
-* Hyper Text Markup Language (HTML)
-* JavaScript (JS)
-* Cascading Style Sheets (CSS)
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ### Project Management
 
@@ -103,7 +106,7 @@ const apiKey = 'KeyGoesHere'; // API Key to call METAR data
 
 ### Product Design
 
-* [Figma](https://www.figma.com/proto/SKUixSRww6lVhCeuEjPoJe/Design-Prototype?node-id=46-2&t=UTFqlbxfzRfOGJ9T-1)
+* [Figma for Designs and Prototyping](https://www.figma.com/proto/SKUixSRww6lVhCeuEjPoJe/Design-Prototype?node-id=46-2&t=UTFqlbxfzRfOGJ9T-1)
 
 ### Files to run the App
 
@@ -119,7 +122,6 @@ const apiKey = 'KeyGoesHere'; // API Key to call METAR data
 ### Other Tools
 
 * [Microsoft Forms](https://forms.office.com/Pages/DesignPageV2.aspx)
-* Documentation for [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript) and [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS).
 
 ### Additional Sites used
 
@@ -139,18 +141,23 @@ To design my application, including all wireframes, low-fidelity designs, and pe
 User Personas were collated based on personal understanding of the Job Roles, and asking those with experience in those fields. This allowed me to form a picture of the roles they work, the traits they possess, and also the Painpoints and Needs from their perspectives. With this information, we can better inform the design, and features of the app.
 
 ![User Personas](https://github.com/user-attachments/assets/c2b02fb4-8340-454b-af68-a2a363130fd3)
+***Figure Three**: Showing the User Personas for the App, covering important details about the target demographic users. Access [here](https://www.figma.com/design/O7Xz6tJLqJmPbZ46BMNcvk/Designs?node-id=14-2&p=f&t=ueyiR0hgBMPoCN71-0).*
 
 An Empathy Map was developed before the intial designing of the app took place, it allowed me to understand how our Users feel, and experience the emotions that they feel on a day to day basis. By empathising with my end users, I gain a better understanding of the requirements for the app. This is one way to remove Scope Creep, with limited Stakeholder interaction.
 
 ![Empathy Map](https://github.com/user-attachments/assets/5efb7a4d-58fe-4bf6-a789-cba5ff1e7ee1)
+***Figure Four**: Shows the Empathy Map based on the User Personas, highlighting key aspects of their work, and the link to this App. Access [here](https://www.figma.com/design/O7Xz6tJLqJmPbZ46BMNcvk/Designs?node-id=27-49&p=f&t=ueyiR0hgBMPoCN71-0).*
 
 I had 2 Wireframe designs for Version 1.0 of the app, shown below, they offer the same functions, in a different aesthetic manner. To decide on the best design, I took onboard user feedback, recorded within a [Google Form](https://forms.office.com/e/jnREighNZ9) from my colleagues and the end users. This was simple showing the different designs, asking which was preferred, and ultimately any features that users would like to see in that design. This allowed me to iteratively improve my designs, before concluding with the final design. 
 
 ![Wireframe Designs V1.0](https://github.com/user-attachments/assets/f4924cb3-930a-43ca-92bb-0e1e28ba676e)
+***Figure Five**: This shows the Wireframe Designs for the first Version of the app which will be produced in Sprint One. Access [here](https://www.figma.com/design/O7Xz6tJLqJmPbZ46BMNcvk/Designs?node-id=0-1&p=f&t=ueyiR0hgBMPoCN71-0).*
 
 I implemented Design One for Version 1.0 of the Pressure Converter as it users found the output clearer, with more of a modern feel. It also removes the confusion about being able to convert from inHg, which isn't clear in Design Two. The final prototype version is shown below attached as an animated GIF for convenience.
 
 ![Version 1.0 Prototype](https://github.com/user-attachments/assets/6d96fa34-8c83-4c23-9beb-5eeda790ab30)
+
+***Figure Six**: This shows the Figma Prototpye developed based on the selected Wireframe Design. This uses a series of preset routes to determine what the App would look like. Access [here](https://www.figma.com/proto/SKUixSRww6lVhCeuEjPoJe/Design-Prototype?node-id=4-3&p=f&t=lkv79lfilw9Fb1iB-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A3).*
 
 Upon commencing Version 2.0 of this App, developing it further into the METAR retriever and Pressure Converter, I returned to Figma to develop more wireframe designs, focussing on EDIPT (Empathize, Define, Ideate, Prototype and Test). This process of design thinking is especially important when making changes to an app that had positive feedback from users. I decided that due to this feedback, it was established that users like the current design, meaning that I did not want to alter the design where possible. From there, I could use my User Personas and Empathy Map to create a list of ideas that a user would benefit from:
 * An input box for Airport ICAO codes.
@@ -161,11 +168,14 @@ Upon commencing Version 2.0 of this App, developing it further into the METAR re
 What does the <i>intended</i> user want to see?
 The intended users are Pilots and Flight Ops. They want to retrieve the METAR for any airport, output the METAR onto the screen and then copy the QNH across to the converter to note down quickly. With this in mind going into Sprint Two, I designed a further two wireframe designs that included all of these features. The main difference between the designs is the "Copy QNH" button. Crucially, these designs are very similar, and the functionality remains the same, the second however, with less context to what the button carries out. 
 
-![Wireframe Designs V1.0](https://github.com/user-attachments/assets/6d711579-f50e-47f7-875b-96b43bd28f37)
+![Wireframe Designs V2.0](https://github.com/user-attachments/assets/6d711579-f50e-47f7-875b-96b43bd28f37)
+***Figure Seven**: In a similar way to Figure Five, for Sprint Two, further Wireframe Designs were created to inform the stakeholders on possible options for the App. Access [here](https://www.figma.com/design/O7Xz6tJLqJmPbZ46BMNcvk/Designs?node-id=1-37&p=f&t=ueyiR0hgBMPoCN71-0).*
 
 Ultimately, Design One was chosen for the final design. The reason this design won was the ease of access for all users. The copy symbol is widely adopted in the Technology space, but for those unfamiliar, this button can be misleading. The simplicity of the text button is unmatched and therefore is a better design for the use case. Compared to Version 1.0, Version 2.0 extends the container horizontally, adding a section for the METAR retrieval, allowing the user to input an ICAO (Airport) code, output the METAR, and copy the QNH directly into the Pressure Converter with the correct units selected. As above, the Prototype is attached below as a GIF for convenience.
 
-![Wireframe Designs V2.0](https://github.com/user-attachments/assets/7af719f9-0fa4-45c4-a4c0-930595631106)
+![Version V2.0 Prototype](https://github.com/user-attachments/assets/7af719f9-0fa4-45c4-a4c0-930595631106)
+
+***Figure Eight**: With a chosen design, to assist the development process and inform the stakeholders, another prototype was developed in [Figma](https://www.figma.com/proto/SKUixSRww6lVhCeuEjPoJe/Design-Prototype?node-id=46-107&starting-point-node-id=46%3A107).*
 
 The designs overall match the tool created, with slightly differing colours, as decided during the development process for colourblind users. The prototypes allowed me to use Test Driven Development when coding the app and for users to explore it before.
 </details>
@@ -177,13 +187,15 @@ The designs overall match the tool created, with slightly differing colours, as 
 
 ![Project Kanban Board](https://github.com/user-attachments/assets/95f6c47f-8a78-4edf-a1e5-709633cfcecd)
 
-Through this project, I have utilised GitHub Projects as the tool to manage my workflow and ensure I can adopt an Agile Way of Working. Project Management uses knowledge, skills and techniques to deliver something valuable, which in this is the app that I have created. Agile was the best way to work on this project as it offers an iterative approach to working that splits tasks into manageable "sprints". This also accounts for the variable nature of the tool, which could encounter bugs and require fixes on a interchangeable basis. Due to this way of working, I decided that Agile was better than a Waterfall approach. 
+***Figure Nine**: The Project Kanban board, on [GitHub Projects](https://github.com/users/jackbash1/projects/2/views/1). This allows different tickets (GitHub issues) to be tracked across the Software Development Lifecycle.*
 
-I worked in small sprints that each had a set of aims and tickets to accomplish before reviewing the progress in that sprint, and making changes ready for the next sprint. This is easier in a group of people, as there is limited room for reviewers and external reviewers that can help evaluate the sprint progress. During this time, I kept my tickets (issues) within the project Kanban board, shown above. This allowed me to break the project development into chunks, that could be assigned to a specific label, branch and pull request. It also helps for visualising the work that had to be complete, adding checklists within each ticket that could track my progress. There are 5 sections on the board, **Backlog, Ready, In Progress, In Review & Done**. At the start of each sprint, tickets within the Backlog are prioritised, and moved to Ready when included in that current sprint. From there, the ticket is worked on, and progress determined by the story points (sub-tasks within the ticket). The ticket will be moved to In-Review to allow for the intended outcome of the ticket to be checked, removing the chance of human error. The Done column is reserved for the tickets that are complete, and should also have a linked closed Pull Request. 
+I have utilised GitHub Projects as the tool to manage my workflow and ensure I can adopt an Agile Way of Working. Project Management uses knowledge, skills and techniques to deliver something valuable, which in this is the app that I have created. Agile was the best way to work on this project as it offers an iterative approach to working that splits tasks into manageable "sprints". This also accounts for the variable nature of the tool, which could encounter bugs and require fixes.
 
-To ensure that I was maintaining Agile methodologies, each branch that I created also followed the naming convention of feature/fix/documentation / issue-name. This method prevented scope creep, as I could see the issue that I was working on throughout the process of comitting to the branch. Likewise, when change did occur within the scope, perhaps due to external feedback, it was added to the sprint and prioritised. Utilising this Agile methodology allows for changes, unlike a traditional Waterfall approach, which will restrict changes until completion, extending the development time. When I changed my MVP for Version 1.0 to develop Version 2.0, I first assessed the time scale and overall impact on the progress. This change warranted a new sprint, dedicated to the changes that would be made for the second version. If I was in a team environment, I would ensure that Scrum meetings are incorporated throughout the sprints, allowing each member of the team to share blockers with progress, and for the Scrum Master to update on the sprint and project progress, including change requests. Scrum meetings would also be able to gauge the progress of the sprint, viewing how each task is progressing through the stories. 
+I worked in sprints that each had a set of aims and tickets to accomplish before reviewing the progress in that sprint, and making changes ready for the next sprint. During this time, I kept my tickets (issues) within the project Kanban board, shown in Figure Nine. This allowed me to break the project development into chunks, that could be assigned to a specific label, branch and pull request. There are 5 sections on the board, **Backlog, Ready, In Progress, In Review & Done**.
 
-After the first Sprint, I conducted a Sprint Review, which allowed me to review my progress during the Sprint, and it would allow me to present my work to the key stakeholders who will be using this app. Having this review after the first sprint, allows for feedback on the MVP, and allows stakeholders to raise questions, highlight issues and also offer improvements for the following sprint. With this, we were able to tailor the second Sprint, focussing on implementing the design changes and functionality that the stakeholder requested, which was to include the METAR data and the ability to extract the pressure directly from it and into the Converter. If we were approaching the project using the Waterfall methodology, this feedback would have been recieved after the first project iteration, meaning more time would be spent implementing changes afterwards.
+Each branch that I created followed the naming convention of feature/bug/documentation / issue-name. When change did occur within the scope, perhaps due to external feedback, it was added to the sprint and prioritised. When I updated my MVP for Version 1.0 to develop Version 2.0, I first assessed the time scale and overall impact on the progress. This change warranted a new sprint, dedicated to the changes that would be made for the second version. If I was in a team environment, I would ensure that Scrum meetings are incorporated throughout the sprints. These would also be able to gauge the progress of the sprint.
+
+After the first Sprint, I conducted a Sprint Review, which allowed me to review my progress during the Sprint. Having this review after the first sprint, allows improvements for the following sprint. With this, we were able to tailor the second Sprint, focussing on implementing the design changes and functionality that the stakeholder requested.
 </details>
 
 
@@ -198,19 +210,21 @@ After the first Sprint, I conducted a Sprint Review, which allowed me to review 
 
 ## Test Driven Development
 
-Test Driven Development (TDD) is an development process that involves writing a failing test, creating the passing function code, and then refactoring. It is an iterative process that ensures the final function passes all the tests. The first test is created with the full functionality in mind, and then the function should be written incrementally to pass each test. The code written will pass the test, and will require refactoring over time to ensure that it is fully automated for all situations. Below I have outlined one iterations of using TDD for one of my functions.
+Test Driven Development (TDD) is an development process that involves writing a failing test, creating the passing function code, and then refactoring. It is an iterative process that ensures the final function passes all the tests.
 
 First Failing Test:
 
 ![First Failing Test](https://github.com/user-attachments/assets/cba313ba-a2f4-4f60-9d5a-040a7b971e65)
 
-I begun my TDD by writing a test that would fail, because the function code has not yet been written. The test is built with the function of the app in mind, it is not a fake test, it will ensure that the functionality works correctly.
+***Figure Ten**: Showing a Failing Unit Test. The test failed because the the function code had not been written. The test was built with the function in mind, and therefore the function will be built around the tests.*
 
 Code to Pass First Test:
 
 ![First Working Function](https://github.com/user-attachments/assets/259474b1-48f7-499c-acb3-6b2c4519596b)
 
-Then, we write the passing code for that test. Initially, this is very simple, we make it pass the test however we can. With further iterations, I created more pressing tests, where I would need to refactor my code and create if statements and automation. In doing this, I was creating the best code for the function, ensuring that is was passing each test, and would pass for all values of those tests. I had multiple iterations of this cycle, ensuring that the function was built to pass all of the required tests. You can find more examples of the changes and tests I created, [here](https://github.com/jackbash1/METAR-PressureConverter/pull/58/files).
+***Figure Eleven**: This figure follows on from the Failing Test and shows the Passing Code for the failing test. Whilst initally simple, this will be scaled up with each failing test, to a point of automation for all possible values. This involves refactoring the code and creating IF statements.*
+
+In doing this, I was creating the best code for the function, ensuring that is was passing each test, and would pass for all values of those tests. I had multiple iterations of this cycle, ensuring that the function was built to pass all of the required tests. You can find more examples of the changes and tests I created, [here](https://github.com/jackbash1/METAR-PressureConverter/pull/58/files).
 
 ## Google Lighthouse Audit
 
@@ -233,17 +247,10 @@ The Audit has scored the page a Performance Score of 100, the top score. Whilst 
 
 Accessibility scored 91 on the Audit, which is a good score, with room for improvements. Namely, increasing the contrast of the text within my buttons. The reason that having a contrast is important is to enable users with reduced vision and those colourblind users to distinguish the writing. 
 
-How do I improve this?
+#### How to improve this?
 
 In the next sprint, there should be a ticket to implement a colourblind setting, which will ensure a high contrast pairing of colours. This should also be extended to different types of colourblindness. 
 
-### Best Practices
-
-This is another perfect score, which means that the app is using the best practices possible, this should be continuously tested.
-
-### SEO (Search Engine Optimisation)
-
-The SEO scores determines how easily the website could be found through search engines. The score of 90 is a great score, as the website has not been tailored for public use, and therefore does not contain meta description. That is one method that could be developed in the next sprint, if the website was to be productionised for the public.
 
 </details>
 
