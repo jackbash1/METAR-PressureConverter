@@ -226,6 +226,10 @@ In doing this, I was creating the best code for the function, ensuring that is w
 
 Continuous Integration (CI) is a Software method that involves tests that run after every commit. It ensures that new commits to the repository do not cause the tests to fail, as this could result in an exploit to the app. Using GitHub actions, for each commit to main, the testing suite will run automatically in the code, and will return a Green Tick on the home page, if they are all successful. Likewise, the code coverage can be printed through a website such as Codecov, which in the case of my testing, is 100%.
 
+## A/B Testing
+
+Alpha/Beta Testing was performed by myself throughout the development lifecycle. This was noted during this ticket [here](https://github.com/jackbash1/METAR-PressureConverter/issues/9)
+
 ![Continuous Integration](https://github.com/user-attachments/assets/b6fcc8ce-d684-49aa-a089-fa5dfa42bdfd)
 
 ***Figure Tweleve**: Showing the output of CI in GitHub actions, it displays the test suite that has run, if they passed, and the coverage that the testing has. This shows the 100% test coverage that the app has, denoted by the badge at the top of the README. The actions can be found [here](https://github.com/jackbash1/METAR-PressureConverter/actions/workflows/node.js.yml).*
@@ -242,6 +246,8 @@ The audits that are included are:
 * SEO (Search Engine Optimisation)
 
 ![Google Lighthouse Audit](https://github.com/user-attachments/assets/fcbced18-3126-4a03-b125-9cdd9694b105)
+
+***Figure Thirteen**: This shows Four ratings, based on the application.*
 
 ### Performance
 
