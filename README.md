@@ -196,6 +196,7 @@ After the first Sprint, I conducted a Sprint Review, which allowed me to review 
 ## Labelling
 
 ![Labels](https://github.com/user-attachments/assets/c53df1e0-83cb-4414-9f66-64a5769eb148)
+
 ***Figure Ten**: This shows the extent of the tickets created for the project.*
 
 </details>
