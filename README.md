@@ -5,7 +5,7 @@ Code &amp; Documentation for SE Summative One: METAR and Pressure Converter Appl
 
 User Experience Guide: Navigate to [Dropbox](https://www.dropbox.com/scl/fo/qbtjhu3ul2aayjuqo25ej/AI7YfA3HC6LX4Cl1TsXcJOg?rlkey=51idf8gihdhonccojtxzlqkls&st=t3vzjktv&dl=0).
 
-<details open><summary>Purpose</summary>
+<details closed><summary>Introduction</summary>
 
 ## Purpose
 
@@ -29,7 +29,21 @@ The app contains the following features:
 ![App Demo](https://github.com/user-attachments/assets/49afee50-bf81-4796-9979-0c21e469b79d)
 </details>
 
-<details open>
+<details closed>
+<summary>User Documentation</summary>
+
+## User Documentation
+
+</details>
+
+<details closed>
+<summary>Technical Documentation</summary>
+
+## Technical Documentation
+
+</details>
+
+<details closed>
 <summary>Design</summary>
 
 ## Design Stage and [Prototyping](https://www.figma.com/proto/SKUixSRww6lVhCeuEjPoJe/Design-Prototype?node-id=46-2&t=UTFqlbxfzRfOGJ9T-1)
@@ -72,7 +86,10 @@ Ultimately, Design One was chosen for the final design. The reason this design w
 The designs overall match the tool created, with slightly differing colours, as decided during the development process for colourblind users. The prototypes allowed me to use Test Driven Development when coding the app and for users to explore it before.
 </details>
 
-## Project Management
+<details closed>
+<summary>Project Management</summary>
+  
+## Project Management Structure
 
 ![Project Kanban Board](https://github.com/user-attachments/assets/95f6c47f-8a78-4edf-a1e5-709633cfcecd)
 
@@ -83,6 +100,10 @@ I worked in small sprints that each had a set of aims and tickets to accomplish 
 To ensure that I was maintaining Agile methodologies, each branch that I created also followed the naming convention of feature/fix/documentation / issue-name. This method prevented scope creep, as I could see the issue that I was working on throughout the process of comitting to the branch. Likewise, when change did occur within the scope, perhaps due to external feedback, it was added to the sprint and prioritised. Utilising this Agile methodology allows for changes, unlike a traditional Waterfall approach, which will restrict changes until completion, extending the development time. When I changed my MVP for Version 1.0 to develop Version 2.0, I first assessed the time scale and overall impact on the progress. This change warranted a new sprint, dedicated to the changes that would be made for the second version. If I was in a team environment, I would ensure that Scrum meetings are incorporated throughout the sprints, allowing each member of the team to share blockers with progress, and for the Scrum Master to update on the sprint and project progress, including change requests. Scrum meetings would also be able to gauge the progress of the sprint, viewing how each task is progressing through the stories. 
 
 After the first Sprint, I conducted a Sprint Review, which allowed me to review my progress during the Sprint, and it would allow me to present my work to the key stakeholders who will be using this app. Having this review after the first sprint, allows for feedback on the MVP, and allows stakeholders to raise questions, highlight issues and also offer improvements for the following sprint. With this, we were able to tailor the second Sprint, focussing on implementing the design changes and functionality that the stakeholder requested, which was to include the METAR data and the ability to extract the pressure directly from it and into the Converter. If we were approaching the project using the Waterfall methodology, this feedback would have been recieved after the first project iteration, meaning more time would be spent implementing changes afterwards.
+</details>
+
+<details closed>
+<summary>Testing</summary>
 
 ## Test Driven Development
 
@@ -99,6 +120,8 @@ Code to Pass First Test:
 ![First Working Function](https://github.com/user-attachments/assets/259474b1-48f7-499c-acb3-6b2c4519596b)
 
 Then, we write the passing code for that test. Initially, this is very simple, we make it pass the test however we can. With further iterations, I created more pressing tests, where I would need to refactor my code and create if statements and automation. In doing this, I was creating the best code for the function, ensuring that is was passing each test, and would pass for all values of those tests. I had multiple iterations of this cycle, ensuring that the function was built to pass all of the required tests. You can find more examples of the changes and tests I created, [here](https://github.com/jackbash1/METAR-PressureConverter/pull/58/files).
+
+</details>
 
 ## User Documentation
 
@@ -221,6 +244,16 @@ This is another perfect score, which means that the app is using the best practi
 
 The SEO scores determines how easily the website could be found through search engines. The score of 90 is a great score, as the website has not been tailored for public use, and therefore does not contain meta description. That is one method that could be developed in the next sprint, if the website was to be productionised for the public.
 
+<details closed>
+<summary>Future Plans</summary>
+
+</details>
+
+<details closed>
+<summary>Conclusion</summary>
+
+
+</details>
 
 
 
