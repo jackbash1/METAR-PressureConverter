@@ -290,6 +290,13 @@ From there, developments would be formed from the feedback over a specifiedm tri
 <details closed>
 <summary>Conclusion 🏁</summary>
 
+## Evaluation and Conclusion
+
+Overall, this has been my first proper interaction with GitHub, HTML, JS, and CSS. I have had a steep learning curve to understand each of these topics, whilst aiming to produce a high quality application. I found a key business area that would benefit from a tool being produced. This led to the Flight Operations department revealing a project idea. This enabled me to develop the ideas using Design Thinking, and other key principles. 
+
+The application provides realtime data to the user via the use of an API. This call is error handled, and has been throughly tested through Node and Jest. This provides confidence to the stakeholders that the tool is accurate all the time, as this would be used intensively. Using an Agile Methodology was the best method for this process as I could develop User Stories that labelled the description of the ticket, and the tasks, forming an Acceptance Criteria. 
+
+There is still lots to add to this project, and working collaboratively with the stakeholders would enable this, and many future iterations.
 
 </details>
 
