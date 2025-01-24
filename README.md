@@ -3,6 +3,8 @@ Code &amp; Documentation for SE Summative One: METAR and Pressure Converter Appl
 
 **User Experience Guide: Navigate to [Dropbox](https://www.dropbox.com/scl/fo/qbtjhu3ul2aayjuqo25ej/AI7YfA3HC6LX4Cl1TsXcJOg?rlkey=51idf8gihdhonccojtxzlqkls&st=t3vzjktv&dl=0).**
 
+**Feedback [Form](https://forms.office.com/e/sxu6fXbSYm)**
+
 [![codecov](https://codecov.io/gh/jackbash1/METAR-PressureConverter/graph/badge.svg?token=QPCR8QED5I)](https://codecov.io/gh/jackbash1/METAR-PressureConverter)
 
 <details closed><summary>Introduction 🏫</summary>
@@ -10,6 +12,7 @@ Code &amp; Documentation for SE Summative One: METAR and Pressure Converter Appl
 ## Purpose
 
 ![Final App](https://github.com/user-attachments/assets/654cba3b-4166-4622-9dd1-f85dea5d0836)
+
 ***Figure One**: Showing the App Layout*
 
 
@@ -35,7 +38,8 @@ The app contains the following features:
 ## How to use the App
 
 ![App Demo](https://github.com/user-attachments/assets/8cf8d272-0192-4429-8b48-bee872d3c072)
-***Figure Two**: Animated GIF showing a short Demo of the App working. It covers all buttons and possibilities for use.*
+
+***Figure Two**: Animated GIF showing a short Demo of the App working. It covers all buttons and possibilities for use. You can find the full version in the [Dropbox Folder](https://www.dropbox.com/scl/fo/qbtjhu3ul2aayjuqo25ej/AI7YfA3HC6LX4Cl1TsXcJOg?rlkey=51idf8gihdhonccojtxzlqkls&st=t3vzjktv&dl=0).*
 
 </details>
 
@@ -61,7 +65,6 @@ If they are not installed, follow the steps on [npm Docs](https://docs.npmjs.com
 ```sh
 git clone https://github.com/jackbash1/METAR-PressureConverter.git
 ```
-This should be everything that you need to execute the files. Navigate into the folder you have cloned to find the code.
 
 ## Running all tests
 
@@ -102,7 +105,6 @@ const apiKey = 'KeyGoesHere'; // API Key to call METAR data
 ### Project Management
 
 * [GitHub Projects](https://github.com/users/jackbash1/projects/2/views/1)
-* GitHub
 
 ### Product Design
 
@@ -134,50 +136,44 @@ const apiKey = 'KeyGoesHere'; // API Key to call METAR data
 
 ## Design Stage and [Prototyping](https://www.figma.com/proto/SKUixSRww6lVhCeuEjPoJe/Design-Prototype?node-id=46-2&t=UTFqlbxfzRfOGJ9T-1)
 
-To design my application, including all wireframes, low-fidelity designs, and personas, I used Figma. Figma is an online tool that allows design and development of products, collaboratively across teams. In the case of this project, it also allowed me to create prototype designs of the application, to scale with screen sizes. It offers users interactivity, which can help to detect issues with the design before the coding happens, reducing the time spent in sprints.  
-
 ### User Personas and Empathy Map
 
 User Personas were collated based on personal understanding of the Job Roles, and asking those with experience in those fields. This allowed me to form a picture of the roles they work, the traits they possess, and also the Painpoints and Needs from their perspectives. With this information, we can better inform the design, and features of the app.
 
 ![User Personas](https://github.com/user-attachments/assets/c2b02fb4-8340-454b-af68-a2a363130fd3)
+
 ***Figure Three**: Showing the User Personas for the App, covering important details about the target demographic users. Access [here](https://www.figma.com/design/O7Xz6tJLqJmPbZ46BMNcvk/Designs?node-id=14-2&p=f&t=ueyiR0hgBMPoCN71-0).*
 
-An Empathy Map was developed before the intial designing of the app took place, it allowed me to understand how our Users feel, and experience the emotions that they feel on a day to day basis. By empathising with my end users, I gain a better understanding of the requirements for the app. This is one way to remove Scope Creep, with limited Stakeholder interaction.
+An Empathy Map was developed before the intial designing of the app took place, it allowed me to understand how our users feel, and experience the emotions that they feel on a day to day basis. By empathising with my end users, I gain a better understanding of the requirements for the app.
 
 ![Empathy Map](https://github.com/user-attachments/assets/5efb7a4d-58fe-4bf6-a789-cba5ff1e7ee1)
+
 ***Figure Four**: Shows the Empathy Map based on the User Personas, highlighting key aspects of their work, and the link to this App. Access [here](https://www.figma.com/design/O7Xz6tJLqJmPbZ46BMNcvk/Designs?node-id=27-49&p=f&t=ueyiR0hgBMPoCN71-0).*
 
-I had 2 Wireframe designs for Version 1.0 of the app, shown below, they offer the same functions, in a different aesthetic manner. To decide on the best design, I took onboard user feedback, recorded within a [Google Form](https://forms.office.com/e/jnREighNZ9) from my colleagues and the end users. This was simple showing the different designs, asking which was preferred, and ultimately any features that users would like to see in that design. This allowed me to iteratively improve my designs, before concluding with the final design. 
+I had 2 Wireframe designs for Version 1.0 of the app, shown below, they offer the same functions, in a different aesthetic manner. To decide on the best design, I took onboard user feedback, recorded within a [Google Form](https://forms.office.com/e/jnREighNZ9) from my colleagues and the end users. This was simple showing the different designs, asking which was preferred, and ultimately any features that users would like to see in that design.
 
 ![Wireframe Designs V1.0](https://github.com/user-attachments/assets/f4924cb3-930a-43ca-92bb-0e1e28ba676e)
-***Figure Five**: This shows the Wireframe Designs for the first Version of the app which will be produced in Sprint One. Access [here](https://www.figma.com/design/O7Xz6tJLqJmPbZ46BMNcvk/Designs?node-id=0-1&p=f&t=ueyiR0hgBMPoCN71-0).*
 
-I implemented Design One for Version 1.0 of the Pressure Converter as it users found the output clearer, with more of a modern feel. It also removes the confusion about being able to convert from inHg, which isn't clear in Design Two. The final prototype version is shown below attached as an animated GIF for convenience.
+***Figure Five**: This shows the Wireframe Designs for the first Version of the app which was produced in Sprint One. Access [here](https://www.figma.com/design/O7Xz6tJLqJmPbZ46BMNcvk/Designs?node-id=0-1&p=f&t=ueyiR0hgBMPoCN71-0).*
+
+I implemented Design One for the Pressure Converter as it users found the output clearer, with more of a modern feel. The final prototype version is shown below attached as an animated GIF for convenience.
 
 ![Version 1.0 Prototype](https://github.com/user-attachments/assets/6d96fa34-8c83-4c23-9beb-5eeda790ab30)
 
 ***Figure Six**: This shows the Figma Prototpye developed based on the selected Wireframe Design. This uses a series of preset routes to determine what the App would look like. Access [here](https://www.figma.com/proto/SKUixSRww6lVhCeuEjPoJe/Design-Prototype?node-id=4-3&p=f&t=lkv79lfilw9Fb1iB-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A3).*
 
-Upon commencing Version 2.0 of this App, developing it further into the METAR retriever and Pressure Converter, I returned to Figma to develop more wireframe designs, focussing on EDIPT (Empathize, Define, Ideate, Prototype and Test). This process of design thinking is especially important when making changes to an app that had positive feedback from users. I decided that due to this feedback, it was established that users like the current design, meaning that I did not want to alter the design where possible. From there, I could use my User Personas and Empathy Map to create a list of ideas that a user would benefit from:
-* An input box for Airport ICAO codes.
-* An option to output the METAR (Weather information) for that Airport.
-* Ability to copy the Pressure (QNH) across to the Pressure Converter.
-* A decoded version of the METAR information.
-
-What does the <i>intended</i> user want to see?
-The intended users are Pilots and Flight Ops. They want to retrieve the METAR for any airport, output the METAR onto the screen and then copy the QNH across to the converter to note down quickly. With this in mind going into Sprint Two, I designed a further two wireframe designs that included all of these features. The main difference between the designs is the "Copy QNH" button. Crucially, these designs are very similar, and the functionality remains the same, the second however, with less context to what the button carries out. 
+Upon commencing Sprint Two, developing it further into the METAR retriever and Pressure Converter, I returned to Figma to develop more wireframe designs, focussing on EDIPT (Empathize, Define, Ideate, Prototype and Test). This process of design thinking is especially important when making changes to an app that had positive feedback from users. I decided that due to previous feedback, it was established that users like the current design, meaning that I did not want to alter the design where possible. From there, I could use my Empathy Map to create a list of ideas that a user would benefit from.
 
 ![Wireframe Designs V2.0](https://github.com/user-attachments/assets/6d711579-f50e-47f7-875b-96b43bd28f37)
+
 ***Figure Seven**: In a similar way to Figure Five, for Sprint Two, further Wireframe Designs were created to inform the stakeholders on possible options for the App. Access [here](https://www.figma.com/design/O7Xz6tJLqJmPbZ46BMNcvk/Designs?node-id=1-37&p=f&t=ueyiR0hgBMPoCN71-0).*
 
-Ultimately, Design One was chosen for the final design. The reason this design won was the ease of access for all users. The copy symbol is widely adopted in the Technology space, but for those unfamiliar, this button can be misleading. The simplicity of the text button is unmatched and therefore is a better design for the use case. Compared to Version 1.0, Version 2.0 extends the container horizontally, adding a section for the METAR retrieval, allowing the user to input an ICAO (Airport) code, output the METAR, and copy the QNH directly into the Pressure Converter with the correct units selected. As above, the Prototype is attached below as a GIF for convenience.
+Ultimately, Design One was chosen for the final design. The copy symbol is widely adopted in the Technology space, but for those unfamiliar, this button can be misleading. The simplicity of the text button is unmatched. Compared to Version 1.0, Version 2.0 extends the container horizontally, adding a section for the METAR retrieval, allowing the user to input an ICAO (Airport) code, output the METAR, and copy the QNH directly into the Pressure Converter with the correct units selected. As above, the Prototype is attached below as a GIF for convenience.
 
 ![Version V2.0 Prototype](https://github.com/user-attachments/assets/7af719f9-0fa4-45c4-a4c0-930595631106)
 
 ***Figure Eight**: With a chosen design, to assist the development process and inform the stakeholders, another prototype was developed in [Figma](https://www.figma.com/proto/SKUixSRww6lVhCeuEjPoJe/Design-Prototype?node-id=46-107&starting-point-node-id=46%3A107).*
 
-The designs overall match the tool created, with slightly differing colours, as decided during the development process for colourblind users. The prototypes allowed me to use Test Driven Development when coding the app and for users to explore it before.
 </details>
 
 <details closed>
