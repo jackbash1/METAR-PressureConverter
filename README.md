@@ -198,6 +198,14 @@ After the first Sprint, I conducted a Sprint Review, which allowed me to review 
 <details closed>
 <summary>Coding Journey 💻</summary>
 
+## The High-Level Coding Process
+
+1. The HTML structure is created first, and can be styled using CSS. This allows us to determine the specific styling, fonts, sizing etc.
+2. The Document Object Model (DOM) code can be created next, this involves creating event listeners for every button, with variables to store neccessary values.
+3. The JavaScript logic can then be created using functions, carefully developed utilising Test Driven Development to do so. This performs the actions upon pressing the buttons.
+4. From there, further testing could be implemented, bug fixes where required, and code refactoring in order to provide structure to the code.
+5. For further detail, access the issues, and watch the iterative process of building the codebase through Files Changed.
+
 </details>
 
 
