@@ -186,6 +186,13 @@ To ensure that I was maintaining Agile methodologies, each branch that I created
 After the first Sprint, I conducted a Sprint Review, which allowed me to review my progress during the Sprint, and it would allow me to present my work to the key stakeholders who will be using this app. Having this review after the first sprint, allows for feedback on the MVP, and allows stakeholders to raise questions, highlight issues and also offer improvements for the following sprint. With this, we were able to tailor the second Sprint, focussing on implementing the design changes and functionality that the stakeholder requested, which was to include the METAR data and the ability to extract the pressure directly from it and into the Converter. If we were approaching the project using the Waterfall methodology, this feedback would have been recieved after the first project iteration, meaning more time would be spent implementing changes afterwards.
 </details>
 
+
+<details closed>
+<summary>Coding Journey 💻</summary>
+
+</details>
+
+
 <details closed>
 <summary>Testing 🧪</summary>
 
