@@ -23,6 +23,27 @@ body {
     position: relative;
 }
 
+#feedback-container {
+    text-align: center; /* centers the feedback link */
+    margin-top: 20px; /* adds space between the container and feedback link */
+    position: absolute;
+    bottom: -40px; /* places it below the container */
+    left: 50%; /* centers it horizontally */
+    transform: translateX(-50%); /* ensures it's centered relative to the container */
+    width: 100%;
+}
+
+#feedback-link {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+#feedback-link:hover {
+    text-decoration: underline;
+    color: #0056b3; /* darker blue on hover */
+}
+
 .section {
     flex: 1;
     display: flex;
