@@ -1,11 +1,11 @@
-# METAR and Pressure Converter
+# METAR and Pressure Converter ☔
 Code &amp; Documentation for SE Summative One: METAR and Pressure Converter Application. Created by Jack Bashford. GitHub: @jackbash1
 
 [![codecov](https://codecov.io/gh/jackbash1/METAR-PressureConverter/graph/badge.svg?token=QPCR8QED5I)](https://codecov.io/gh/jackbash1/METAR-PressureConverter)
 
 User Experience Guide: Navigate to [Dropbox](https://www.dropbox.com/scl/fo/qbtjhu3ul2aayjuqo25ej/AI7YfA3HC6LX4Cl1TsXcJOg?rlkey=51idf8gihdhonccojtxzlqkls&st=t3vzjktv&dl=0).
 
-<details closed><summary>Introduction</summary>
+<details closed><summary>Introduction 🏫</summary>
 
 ## Purpose
 
@@ -30,14 +30,14 @@ The app contains the following features:
 </details>
 
 <details closed>
-<summary>User Documentation</summary>
+<summary>User Documentation 📄</summary>
 
 ## User Documentation
 
 </details>
 
 <details closed>
-<summary>Technical Documentation</summary>
+<summary>Technical Documentation 🧑‍💻</summary>
 
 ## Technical Documentation
 
@@ -128,7 +128,7 @@ const apiKey = 'KeyGoesHere'; // API Key to call METAR data
 </details>
 
 <details closed>
-<summary>Design</summary>
+<summary>Design 🛠️</summary>
 
 ## Design Stage and [Prototyping](https://www.figma.com/proto/SKUixSRww6lVhCeuEjPoJe/Design-Prototype?node-id=46-2&t=UTFqlbxfzRfOGJ9T-1)
 
@@ -171,7 +171,7 @@ The designs overall match the tool created, with slightly differing colours, as 
 </details>
 
 <details closed>
-<summary>Project Management</summary>
+<summary>Project Management 🧑‍💼</summary>
   
 ## Project Management Structure
 
@@ -187,7 +187,7 @@ After the first Sprint, I conducted a Sprint Review, which allowed me to review 
 </details>
 
 <details closed>
-<summary>Testing</summary>
+<summary>Testing 🧪</summary>
 
 ## Test Driven Development
 
@@ -241,12 +241,12 @@ The SEO scores determines how easily the website could be found through search e
 </details>
 
 <details closed>
-<summary>Future Plans</summary>
+<summary>Future Plans 🔐</summary>
 
 </details>
 
 <details closed>
-<summary>Conclusion</summary>
+<summary>Conclusion 🏁</summary>
 
 
 </details>
