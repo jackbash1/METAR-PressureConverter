@@ -275,6 +275,16 @@ In the next sprint, there should be a ticket to implement a colourblind setting,
 <details closed>
 <summary>Future Plans 🔐</summary>
 
+## Future Plans
+
+With the application at the end of two sprints, it is important to understand our next steps for future sprints. The current app requires user interaction now, for the Pilots and Flight Operations to find bugs, provide feedback, and tell us what is and is not working.
+
+The next steps have been partially developed in the Project Kanban, with some backlog items in the Kanban. 
+
+The main steps include adding a more interactive Weather view. This would involve breaking down what the METAR means for the non-technical users. For example, displaying the direction and strength of the wind on a compass view, and displaying rain if it is raining. There also needs to be a colourblind friendly setting that the user could toggle to make colours change accordingly. From there, I would also include a homepage to the app, giving the app a better look. Users could input their flight number, view where they are flying to and from, and then find the METAR for both of those locations. This would allow for seamless entry for pilots, as they would just need to input their flight number.
+
+From there, developments would be formed from the feedback over a specifiedm trial period.
+
 </details>
 
 <details closed>
