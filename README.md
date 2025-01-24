@@ -222,6 +222,14 @@ Code to Pass First Test:
 
 In doing this, I was creating the best code for the function, ensuring that is was passing each test, and would pass for all values of those tests. I had multiple iterations of this cycle, ensuring that the function was built to pass all of the required tests. You can find more examples of the changes and tests I created, [here](https://github.com/jackbash1/METAR-PressureConverter/pull/58/files).
 
+## Continuous Integration
+
+Continuous Integration (CI) is a Software method that involves tests that run after every commit. It ensures that new commits to the repository do not cause the tests to fail, as this could result in an exploit to the app. Using GitHub actions, for each commit to main, the testing suite will run automatically in the code, and will return a Green Tick on the home page, if they are all successful. Likewise, the code coverage can be printed through a website such as Codecov, which in the case of my testing, is 100%.
+
+![Continuous Integration](https://github.com/user-attachments/assets/b6fcc8ce-d684-49aa-a089-fa5dfa42bdfd)
+
+***Figure Tweleve**: Showing the output of CI in GitHub actions, it displays the test suite that has run, if they passed, and the coverage that the testing has. This shows the 100% test coverage that the app has, denoted by the badge at the top of the README. The actions can be found [here](https://github.com/jackbash1/METAR-PressureConverter/actions/workflows/node.js.yml).*
+
 ## Google Lighthouse Audit
 
 Google Lightouse is an in-built function within Google Chrome, allowing easy quality assessments of webpages. With a series of audits, it assess our webpage, returning a rating from 0 - 100, with 100 being the top rated score.
