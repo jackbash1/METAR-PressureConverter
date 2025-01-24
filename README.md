@@ -198,6 +198,14 @@ After the first Sprint, I conducted a Sprint Review, which allowed me to review 
 <details closed>
 <summary>Coding Journey 💻</summary>
 
+## The High-Level Coding Process
+
+1. The HTML structure is created first, and can be styled using CSS. This allows us to determine the specific styling, fonts, sizing etc.
+2. The Document Object Model (DOM) code can be created next, this involves creating event listeners for every button, with variables to store neccessary values.
+3. The JavaScript logic can then be created using functions, carefully developed utilising Test Driven Development to do so. This performs the actions upon pressing the buttons.
+4. From there, further testing could be implemented, bug fixes where required, and code refactoring in order to provide structure to the code.
+5. For further detail, access the issues, and watch the iterative process of building the codebase through Files Changed.
+
 </details>
 
 
@@ -226,6 +234,10 @@ In doing this, I was creating the best code for the function, ensuring that is w
 
 Continuous Integration (CI) is a Software method that involves tests that run after every commit. It ensures that new commits to the repository do not cause the tests to fail, as this could result in an exploit to the app. Using GitHub actions, for each commit to main, the testing suite will run automatically in the code, and will return a Green Tick on the home page, if they are all successful. Likewise, the code coverage can be printed through a website such as Codecov, which in the case of my testing, is 100%.
 
+## A/B Testing
+
+Alpha/Beta Testing was performed by myself throughout the development lifecycle. This was noted during this ticket [here](https://github.com/jackbash1/METAR-PressureConverter/issues/9)
+
 ![Continuous Integration](https://github.com/user-attachments/assets/b6fcc8ce-d684-49aa-a089-fa5dfa42bdfd)
 
 ***Figure Tweleve**: Showing the output of CI in GitHub actions, it displays the test suite that has run, if they passed, and the coverage that the testing has. This shows the 100% test coverage that the app has, denoted by the badge at the top of the README. The actions can be found [here](https://github.com/jackbash1/METAR-PressureConverter/actions/workflows/node.js.yml).*
@@ -242,6 +254,8 @@ The audits that are included are:
 * SEO (Search Engine Optimisation)
 
 ![Google Lighthouse Audit](https://github.com/user-attachments/assets/fcbced18-3126-4a03-b125-9cdd9694b105)
+
+***Figure Thirteen**: This shows Four ratings, based on the application.*
 
 ### Performance
 
@@ -260,6 +274,16 @@ In the next sprint, there should be a ticket to implement a colourblind setting,
 
 <details closed>
 <summary>Future Plans 🔐</summary>
+
+## Future Plans
+
+With the application at the end of two sprints, it is important to understand our next steps for future sprints. The current app requires user interaction now, for the Pilots and Flight Operations to find bugs, provide feedback, and tell us what is and is not working.
+
+The next steps have been partially developed in the Project Kanban, with some backlog items in the Kanban. 
+
+The main steps include adding a more interactive Weather view. This would involve breaking down what the METAR means for the non-technical users. For example, displaying the direction and strength of the wind on a compass view, and displaying rain if it is raining. There also needs to be a colourblind friendly setting that the user could toggle to make colours change accordingly. From there, I would also include a homepage to the app, giving the app a better look. Users could input their flight number, view where they are flying to and from, and then find the METAR for both of those locations. This would allow for seamless entry for pilots, as they would just need to input their flight number.
+
+From there, developments would be formed from the feedback over a specifiedm trial period.
 
 </details>
 
