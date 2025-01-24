@@ -192,6 +192,12 @@ I worked in sprints that each had a set of aims and tickets to accomplish before
 Each branch that I created followed the naming convention of feature/bug/documentation / issue-name. When change did occur within the scope, perhaps due to external feedback, it was added to the sprint and prioritised. When I updated my MVP for Version 1.0 to develop Version 2.0, I first assessed the time scale and overall impact on the progress. This change warranted a new sprint, dedicated to the changes that would be made for the second version. If I was in a team environment, I would ensure that Scrum meetings are incorporated throughout the sprints. These would also be able to gauge the progress of the sprint.
 
 After the first Sprint, I conducted a Sprint Review, which allowed me to review my progress during the Sprint. Having this review after the first sprint, allows improvements for the following sprint. With this, we were able to tailor the second Sprint, focussing on implementing the design changes and functionality that the stakeholder requested.
+
+## Labelling
+
+![Labels](https://github.com/user-attachments/assets/c53df1e0-83cb-4414-9f66-64a5769eb148)
+***Figure Ten**: This shows the extent of the tickets created for the project.*
+
 </details>
 
 
@@ -220,13 +226,13 @@ First Failing Test:
 
 ![First Failing Test](https://github.com/user-attachments/assets/cba313ba-a2f4-4f60-9d5a-040a7b971e65)
 
-***Figure Ten**: Showing a Failing Unit Test. The test failed because the the function code had not been written. The test was built with the function in mind, and therefore the function will be built around the tests.*
+***Figure Eleven**: Showing a Failing Unit Test. The test failed because the the function code had not been written. The test was built with the function in mind, and therefore the function will be built around the tests.*
 
 Code to Pass First Test:
 
 ![First Working Function](https://github.com/user-attachments/assets/259474b1-48f7-499c-acb3-6b2c4519596b)
 
-***Figure Eleven**: This figure follows on from the Failing Test and shows the Passing Code for the failing test. Whilst initally simple, this will be scaled up with each failing test, to a point of automation for all possible values. This involves refactoring the code and creating IF statements.*
+***Figure Tweleve**: This figure follows on from the Failing Test and shows the Passing Code for the failing test. Whilst initally simple, this will be scaled up with each failing test, to a point of automation for all possible values. This involves refactoring the code and creating IF statements.*
 
 In doing this, I was creating the best code for the function, ensuring that is was passing each test, and would pass for all values of those tests. I had multiple iterations of this cycle, ensuring that the function was built to pass all of the required tests. You can find more examples of the changes and tests I created, [here](https://github.com/jackbash1/METAR-PressureConverter/pull/58/files).
 
@@ -240,7 +246,7 @@ Alpha/Beta Testing was performed by myself throughout the development lifecycle.
 
 ![Continuous Integration](https://github.com/user-attachments/assets/b6fcc8ce-d684-49aa-a089-fa5dfa42bdfd)
 
-***Figure Tweleve**: Showing the output of CI in GitHub actions, it displays the test suite that has run, if they passed, and the coverage that the testing has. This shows the 100% test coverage that the app has, denoted by the badge at the top of the README. The actions can be found [here](https://github.com/jackbash1/METAR-PressureConverter/actions/workflows/node.js.yml).*
+***Figure Thirteen**: Showing the output of CI in GitHub actions, it displays the test suite that has run, if they passed, and the coverage that the testing has. This shows the 100% test coverage that the app has, denoted by the badge at the top of the README. The actions can be found [here](https://github.com/jackbash1/METAR-PressureConverter/actions/workflows/node.js.yml).*
 
 ## Google Lighthouse Audit
 
@@ -255,7 +261,7 @@ The audits that are included are:
 
 ![Google Lighthouse Audit](https://github.com/user-attachments/assets/fcbced18-3126-4a03-b125-9cdd9694b105)
 
-***Figure Thirteen**: This shows Four ratings, based on the application.*
+***Figure Fourteen**: This shows Four ratings, based on the application.*
 
 ### Performance
 
