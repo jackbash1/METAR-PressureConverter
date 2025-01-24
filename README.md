@@ -44,8 +44,7 @@ An Empathy Map was developed before the intial designing of the app took place, 
 
 ![Empathy Map](https://github.com/user-attachments/assets/5efb7a4d-58fe-4bf6-a789-cba5ff1e7ee1)
 
-
-I had 2 Wireframe designs for Version 1.0 of the app, shown below, they offer the same functions, in a different aesthetic manner. To decide on the best design, I took onboard user feedback, recorded within a Google Form from my colleagues. This was as simple as showing the different designs, asking which was preferred, and ultimately any features that users would like to see. This allowed me to iteratively improve my designs, before concluding with the final design. 
+I had 2 Wireframe designs for Version 1.0 of the app, shown below, they offer the same functions, in a different aesthetic manner. To decide on the best design, I took onboard user feedback, recorded within a [Google Form](https://forms.office.com/e/jnREighNZ9) from my colleagues and the end users. This was simple showing the different designs, asking which was preferred, and ultimately any features that users would like to see in that design. This allowed me to iteratively improve my designs, before concluding with the final design. 
 
 ![Wireframe Designs V1.0](https://github.com/user-attachments/assets/f4924cb3-930a-43ca-92bb-0e1e28ba676e)
 
@@ -53,23 +52,22 @@ I implemented Design One for Version 1.0 of the Pressure Converter as it users f
 
 ![Version 1.0 Prototype](https://github.com/user-attachments/assets/6d96fa34-8c83-4c23-9beb-5eeda790ab30)
 
-
-Upon commencing Version 2.0 of this App, developing it further into the METAR retriever and Pressure Converter, I returned to Figma to develop more wireframe designs, focussing on EDIPT (Empathize, Define, Ideate, Prototype and Test). This process of design thinking is especially important when making changes to an app that had positive feedback from users. I decided that due to this feedback, it was established that users like the current design, meaning that I did not want to alter the design where possible. From there, I could create a list of ideas that a user would benefit from:
+Upon commencing Version 2.0 of this App, developing it further into the METAR retriever and Pressure Converter, I returned to Figma to develop more wireframe designs, focussing on EDIPT (Empathize, Define, Ideate, Prototype and Test). This process of design thinking is especially important when making changes to an app that had positive feedback from users. I decided that due to this feedback, it was established that users like the current design, meaning that I did not want to alter the design where possible. From there, I could use my User Personas and Empathy Map to create a list of ideas that a user would benefit from:
 * An input box for Airport ICAO codes.
 * An option to output the METAR (Weather information) for that Airport.
 * Ability to copy the Pressure (QNH) across to the Pressure Converter.
 * A decoded version of the METAR information.
 
 What does the <i>intended</i> user want to see?
-The intended users are Pilots and Flight Ops Planning. These users have a working understanding of METAR and can decode them in their heads, they do not need the decoded version, and this will reduce the space used. However, they will want to retrieve the METAR for any airport, output the METAR onto the screen and then copy the QNH across to the converter to note down quickly. With this in mind, I designed a further two wireframe designs that included all of these features, aiming to keep the style of the app the same as the first version. The main difference between the designs is the "Copy QNH" button. Crucially, these designs are very similar, and the functionality remains the same, the second however, with less context to what the button carries out. 
+The intended users are Pilots and Flight Ops. They want to retrieve the METAR for any airport, output the METAR onto the screen and then copy the QNH across to the converter to note down quickly. With this in mind going into Sprint Two, I designed a further two wireframe designs that included all of these features. The main difference between the designs is the "Copy QNH" button. Crucially, these designs are very similar, and the functionality remains the same, the second however, with less context to what the button carries out. 
 
 ![Wireframe Designs V1.0](https://github.com/user-attachments/assets/6d711579-f50e-47f7-875b-96b43bd28f37)
 
-Ulitmately, Design One was chosen for the final design. The reason this design won was the ease of access for all users. The copy symbol is widely adopted in the Technology space, but for those unfamiliar, this button can be misleading. The simplicity of the text button is unmatched and therefore is a better design for the use case. Compared to Version 1.0, Version 2.0 extends the container horizontally, adding a section for the METAR retrieval, allowing the user to input an ICAO (Airport) code, output the METAR, and copy the QNH directly into the Pressure Converter with the correct units selected. As above, the Prototype is attached below as a GIF for convenience.
+Ultimately, Design One was chosen for the final design. The reason this design won was the ease of access for all users. The copy symbol is widely adopted in the Technology space, but for those unfamiliar, this button can be misleading. The simplicity of the text button is unmatched and therefore is a better design for the use case. Compared to Version 1.0, Version 2.0 extends the container horizontally, adding a section for the METAR retrieval, allowing the user to input an ICAO (Airport) code, output the METAR, and copy the QNH directly into the Pressure Converter with the correct units selected. As above, the Prototype is attached below as a GIF for convenience.
 
 ![Wireframe Designs V2.0](https://github.com/user-attachments/assets/7af719f9-0fa4-45c4-a4c0-930595631106)
 
-The designs overall match the tools created, with slightly differing colours, as decided during the development process. It offered an insight into how the tool should work, before it was coded in both instances. The prototypes allowed me to use Test Driven Development when coding the app and its tests.
+The designs overall match the tool created, with slightly differing colours, as decided during the development process for colourblind users. The prototypes allowed me to use Test Driven Development when coding the app and for users to explore it before.
 </details>
 
 ## Project Management
@@ -180,11 +178,11 @@ const apiKey = 'KeyGoesHere'; // API Key to call METAR data
 ### Other Tools
 
 * [Microsoft Forms](https://forms.office.com/Pages/DesignPageV2.aspx)
-* Documentation for HTML, JS and CSS.
+* Documentation for [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript) and [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS).
 
 ### Additional Sites used
 
-* Codecov to track Code Coverage from Unit Tesing: [https://about.codecov.io/](https://about.codecov.io/)
+* Codecov to automatically track Code Coverage from Unit Tesing: [https://about.codecov.io/](https://about.codecov.io/)
 * API Website that provides free live METAR Data: [https://info.avwx.rest/](https://info.avwx.rest/)
 
 
