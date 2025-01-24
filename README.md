@@ -1,9 +1,9 @@
 # METAR and Pressure Converter ☔
 Code &amp; Documentation for SE Summative One: METAR and Pressure Converter Application. Created by Jack Bashford. GitHub: @jackbash1
 
-[![codecov](https://codecov.io/gh/jackbash1/METAR-PressureConverter/graph/badge.svg?token=QPCR8QED5I)](https://codecov.io/gh/jackbash1/METAR-PressureConverter)
+**User Experience Guide: Navigate to [Dropbox](https://www.dropbox.com/scl/fo/qbtjhu3ul2aayjuqo25ej/AI7YfA3HC6LX4Cl1TsXcJOg?rlkey=51idf8gihdhonccojtxzlqkls&st=t3vzjktv&dl=0).**
 
-User Experience Guide: Navigate to [Dropbox](https://www.dropbox.com/scl/fo/qbtjhu3ul2aayjuqo25ej/AI7YfA3HC6LX4Cl1TsXcJOg?rlkey=51idf8gihdhonccojtxzlqkls&st=t3vzjktv&dl=0).
+[![codecov](https://codecov.io/gh/jackbash1/METAR-PressureConverter/graph/badge.svg?token=QPCR8QED5I)](https://codecov.io/gh/jackbash1/METAR-PressureConverter)
 
 <details closed><summary>Introduction 🏫</summary>
 
